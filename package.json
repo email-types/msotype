@@ -10,17 +10,18 @@
   ],
   "scripts": {
     "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.lock,*.log,*.tsbuildinfo}",
-    "build": "ts-node --transpile-only ./build/index.ts",
-    "test": "jest --colors --logHeapUsage",
-    "test:coverage": "yarn run jest --coverage",
+    "build": "ts-node ./build/index.ts",
+    "test": "yarn build && yarn run lint && yarn run jest",
+    "jest": "jest --colors --logHeapUsage",
+    "jest:coverage": "yarn run jest --coverage",
     "lint": "eslint . --ext js,ts --max-warnings=0 --report-unused-disable-directives",
-    "prettier": "prettier \"**/*.{js,ts,md,json}\" --write",
-    "version:canary": "yarn version --prerelease --preid canary",
-    "version": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s"
+    "pretty": "prettier \"**/*.{js,ts,md,json}\" --write",
+    "changelog": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s",
+    "version:canary": "yarn version --prerelease --preid canary"
   },
   "lint-staged": {
     "**/*.{js,ts,md,json}": [
-      "yarn run prettier"
+      "yarn run pretty"
     ],
     "**/*.{js,ts}": [
       "yarn run lint --fix"
