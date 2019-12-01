@@ -1,12 +1,7 @@
 import { syntaxes } from '@email-types/data/mso';
 import { getCssDataTypes } from './css-types';
-import { DataType } from './constants';
+import { AnyDataType, DataType } from './constants';
 import { toPascalCase, log } from '../utils';
-
-export interface AnyDataType {
-  type: DataType;
-  value: string | number;
-}
 
 const REGEX_DATA_TYPE = /^(<[^>]+>)/g;
 const REGEX_KEYWORD = /^([\w-|\w.]+)/g;
@@ -20,7 +15,7 @@ export const parse = (syntax: string): AnyDataType[] => {
   const parsed = rawdata.reduce<AnyDataType[]>((result, next) => {
     if (next.match(REGEX_DATA_TYPE) !== null) {
       const value = next.slice(1, -1);
-      const cssDataTypes = getCssDataTypes<AnyDataType>();
+      const cssDataTypes = getCssDataTypes();
 
       if (value in cssDataTypes) {
         result.push({

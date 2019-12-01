@@ -1,8 +1,7 @@
 import { EOL } from 'os';
 import { toCamelCase } from '../utils';
 import { Property } from './properties';
-import { AnyDataType } from './parser';
-import { DataType, genericLength } from './constants';
+import { AnyDataType, DataType, genericLength } from './constants';
 import { getAliases, getInterfaces, Interface, Alias } from './declarations';
 
 const lengthGeneric = (hasLength: boolean, defaults = false): string => {

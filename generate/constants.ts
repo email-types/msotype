@@ -13,6 +13,11 @@ export enum DataType {
   Syntax,
 }
 
+export interface AnyDataType {
+  type: DataType;
+  value: string | number;
+}
+
 export const categories = [
   'AlternativeProperties',
   'StandardProperties',

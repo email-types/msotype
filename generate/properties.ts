@@ -1,8 +1,8 @@
 /* eslint-disable import/no-mutable-exports */
 import { properties as rawProperties } from '@email-types/data/mso';
 import { createComment } from './comment';
-import { Category, DataType } from './constants';
-import { parse, AnyDataType } from './parser';
+import { AnyDataType, Category, DataType } from './constants';
+import { parse } from './parser';
 import { msPatches } from '../patches/ms';
 import { toPascalCase } from '../utils';
 
