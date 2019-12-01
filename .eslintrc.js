@@ -1,14 +1,20 @@
+const extensions = ['.ts', '.tsx', '.js', '.jsx', '.json'];
+
 module.exports = {
   extends: [
-    'airbnb-typescript/base',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended',
+    '@postmates',
     'prettier',
     'prettier/standard',
     'prettier/@typescript-eslint',
   ],
   plugins: ['prettier'],
   env: { node: true },
+  settings: {
+    'import/extensions': extensions,
+    'import/resolver': {
+      node: { extensions },
+    },
+  },
   rules: {
     'no-param-reassign': 0,
     'import/prefer-default-export': 0,
