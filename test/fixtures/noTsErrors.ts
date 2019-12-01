@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions, import/no-unresolved */
+/* eslint-disable no-unused-expressions, import/extensions, import/no-unresolved */
 import * as Css from 'csstype';
 import * as Mso from '../..';
 

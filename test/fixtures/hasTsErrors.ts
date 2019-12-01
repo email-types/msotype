@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable no-unused-expressions */
 import * as Mso from '../..';
 
 const unknownProperty: Mso.Properties = {
