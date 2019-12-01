@@ -1,0 +1,76 @@
+{
+  "name": "msotype",
+  "version": "1.0.0-canary.3",
+  "description": "TypeScript definitions for MSO (Microsoft Office), including definitions for the mso- CSS vendor prefix.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "scripts": {
+    "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.lock,*.log,*.tsbuildinfo}",
+    "build": "ts-node --transpile-only ./build/index.ts",
+    "test": "jest --colors --logHeapUsage",
+    "test:coverage": "yarn run jest --coverage",
+    "lint": "eslint . --ext js,ts --max-warnings=0 --report-unused-disable-directives",
+    "prettier": "prettier \"**/*.{js,ts,md,json}\" --write",
+    "version:canary": "yarn version --prerelease --preid canary",
+    "version": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s"
+  },
+  "lint-staged": {
+    "**/*.{js,ts,md,json}": [
+      "yarn run prettier"
+    ],
+    "**/*.{js,ts}": [
+      "yarn run lint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@email-types/data": "^1.0.0-canary.2",
+    "@types/fs-extra": "^8.0.1",
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "@types/prettier": "^1.19.0",
+    "@typescript-eslint/eslint-plugin": "^2.9.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "colors": "^1.4.0",
+    "conventional-changelog-beemo": "^1.5.3",
+    "conventional-changelog-cli": "^2.0.28",
+    "csstype": "^2.6.7",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-typescript": "^6.3.1",
+    "eslint-config-prettier": "^6.6.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-prettier": "^3.1.1",
+    "fs-extra": "^8.1.0",
+    "husky": "^3.0.9",
+    "jest": "^24.9.0",
+    "lint-staged": "^10.0.0-1",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.2"
+  },
+  "keywords": [
+    "definitions",
+    "email",
+    "mso",
+    "typescript",
+    "types"
+  ],
+  "author": "buames",
+  "homepage": "https://github.com/email-types/msotype",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/email-types/msotype.git"
+  },
+  "license": "MIT"
+}

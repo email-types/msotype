@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`throws typescript errors 1`] = `
+"4:2 - Type '{ unknownProperty: number; }' is not assignable to type 'Properties<0 | GlobalsString>'.
+  Object literal may only specify known properties, and 'unknownProperty' does not exist in type 'Properties<0 | GlobalsString>'."
+`;
+
+exports[`throws typescript errors 2`] = `"8:2 - Type 'number' is not assignable to type '\\"at-least\\" | \\"exactly\\" | undefined'."`;
