@@ -155,6 +155,5 @@ const styles: Styles = {
 
 ## More
 
-**Data Sources**
-
 - [List of MSO Properties][stigmortenmyre]
+- [csstype][csstype]
