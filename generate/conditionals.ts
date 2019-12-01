@@ -3,8 +3,7 @@ import {
   operators as rawOperators,
   versions as rawVersions,
 } from '@email-types/data/mso';
-import { AnyDataType } from './parser';
-import { DataType } from './constants';
+import { AnyDataType, DataType } from './constants';
 
 export let getOperators = (): AnyDataType[] => {
   const entries = Object.values(rawOperators);
