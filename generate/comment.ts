@@ -1,5 +1,5 @@
 import { EOL } from 'os';
-import { MSO, features } from '@email-types/data/mso';
+import { MSO, groups } from '@email-types/data';
 import { log } from '../utils';
 
 export const createComment = (
@@ -31,16 +31,16 @@ export const createComment = (
 
   rows.push(tableRow.join(''), '');
 
-  if (property.features && property.features.length > 0) {
-    const links = property.features
-      .map((feature) => {
-        const name = feature.toLowerCase().replace(/\s+/g, '-');
-        const data = features[name];
+  if (property.groups && property.groups.length > 0) {
+    const links = property.groups
+      .map((group) => {
+        const name = group.toLowerCase().replace(/\s+/g, '-');
+        const data = groups[(name as unknown) as keyof typeof groups];
 
         if (data) {
           return `[\`${data.title}\`](${data.url})`;
         }
-        log.warn(`Could not find '${feature}' feature for ${key}`);
+        log.warn(`Could not find '${group}' group for ${key}`);
         return undefined;
       })
       .filter(Boolean);

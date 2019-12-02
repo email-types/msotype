@@ -1,5 +1,5 @@
 /* eslint-disable import/no-mutable-exports */
-import { properties as rawProperties } from '@email-types/data/mso';
+import { properties as rawProperties } from '@email-types/data';
 import { createComment } from './comment';
 import { AnyDataType, Category, DataType } from './constants';
 import { parse } from './parser';

@@ -1,4 +1,4 @@
-import { syntaxes } from '@email-types/data/mso';
+import { syntaxes } from '@email-types/data';
 import { getCssDataTypes } from './css-types';
 import { AnyDataType, DataType } from './constants';
 import { toPascalCase, log } from '../utils';

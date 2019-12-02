@@ -2,7 +2,7 @@
 import {
   operators as rawOperators,
   versions as rawVersions,
-} from '@email-types/data/mso';
+} from '@email-types/data';
 import { AnyDataType, DataType } from './constants';
 
 export let getOperators = (): AnyDataType[] => {
