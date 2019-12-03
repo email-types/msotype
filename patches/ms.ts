@@ -1,6 +1,8 @@
-import { MSO } from '@email-types/data/mso';
+import { create, MSO } from '@email-types/data';
 
-export const msPatches: MSO.Properties = {
+const validate = create<MSO.Property>();
+
+export const msPatches = validate({
   'ms-interpolation-mode': {
     syntax: 'nearest-neighbor | bicubic',
     description:
@@ -8,6 +10,6 @@ export const msPatches: MSO.Properties = {
     initial: null,
     inherited: false,
     shorthand: false,
-    features: [],
+    groups: [],
   },
-};
+});

@@ -1,4 +1,4 @@
-import { types as cssData } from '@email-types/data/mso';
+import { cssDataTypes as cssData } from '@email-types/data';
 import {
   globalsString,
   globalsNumber,

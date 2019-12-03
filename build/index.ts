@@ -9,11 +9,10 @@ const output = resolve(cwd, 'index.d.ts');
 
 (async () => {
   try {
-    log.info('generating declarations');
+    log.wait('generating declarations...');
     const { generate } = await import('../generate');
     const declarations = generate();
 
-    log.wait('formatting...');
     const config = await resolveConfig(cwd);
     const content = format(declarations, {
       ...config,
@@ -21,10 +20,10 @@ const output = resolve(cwd, 'index.d.ts');
       parser: 'typescript',
     });
 
-    log.wait('writing to disk...');
+    log.wait(`writing to '${output}'`);
     await outputFile(output, content.replace(/\n/g, EOL));
 
-    log.done(`successfully created msotype declaration: '${output}'`);
+    log.done('successfully created declarations');
   } catch (error) {
     log.error(error);
     process.exit(0);

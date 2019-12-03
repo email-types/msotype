@@ -3,7 +3,7 @@ node_modules
 *.lock
 
 # build
-index.d.ts
+# index.d.ts
 
 # test
 coverage
