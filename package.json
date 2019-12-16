@@ -14,7 +14,7 @@
     "test": "yarn build && yarn run lint && yarn run jest",
     "jest": "jest --colors --logHeapUsage",
     "jest:coverage": "yarn run jest --coverage",
-    "lint": "eslint . --ext js,ts --max-warnings=0 --report-unused-disable-directives",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives",
     "pretty": "prettier \"**/*.{js,ts,md,json}\" --write",
     "changelog": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s",
     "version:canary": "yarn version --prerelease --preid canary"
@@ -23,7 +23,7 @@
     "**/*.{js,ts,md,json}": [
       "yarn run pretty"
     ],
-    "**/*.{js,ts}": [
+    "{.github/}**/*.{js,ts}": [
       "yarn run lint --fix"
     ]
   },
