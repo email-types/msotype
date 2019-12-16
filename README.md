@@ -2,11 +2,21 @@
 [stigmortenmyre]:
   https://stigmortenmyre.no/mso/html/concepts/ofconstyletable.htm
 
+<div align="center">
+
 # MSOType
 
 TypeScript definitions for MSO (Microsoft Office), including definitions for the
 `mso-` CSS vendor prefix. Autocompletion and type checking for all known MSO
 properties and values are provided.
+
+[![](https://img.shields.io/npm/v/msotype?color=black&logoColor=white)](https://www.npmjs.com/package/msotype)
+![](https://img.shields.io/github/workflow/status/email-types/msotype/Test?logo=github&color=black)
+[![](https://img.shields.io/codecov/c/github/email-types/msotype?logo=codecov&logoColor=white&color=black)](https://codecov.io/gh/email-types/msotype)
+[![](https://img.shields.io/bundlephobia/min/msotype?logo=bundlephobia&color=black)](https://bundlephobia.com/result?p=msotype)
+[![](https://img.shields.io/bundlephobia/minzip/msotype?logo=bundlephobia&color=black)](https://bundlephobia.com/result?p=msotype)
+
+</div>
 
 Install with yarn:
 
