@@ -1,5 +1,5 @@
 /* eslint-disable import/no-mutable-exports */
-import { syntaxes as rawSyntaxes } from '@email-types/data';
+import { syntaxes as rawSyntaxes } from '@email-types/data/mso';
 import { toPascalCase } from '../utils';
 import { parse } from './parser';
 import { DataType } from './constants';

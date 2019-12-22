@@ -16,7 +16,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomAlt?: MsoBorderBottomAltProperty<TLength>;
   /**
@@ -26,7 +26,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomColorAlt?: MsoBorderBottomColorAltProperty;
   /**
@@ -36,7 +36,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomStyleAlt?: MsoBorderBottomStyleAltProperty;
   /**
@@ -46,7 +46,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomWidthAlt?: MsoBorderBottomWidthAltProperty<TLength>;
   /**
@@ -56,7 +56,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderColorAlt?: MsoBorderColorAltProperty;
   /**
@@ -66,7 +66,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftAlt?: MsoBorderLeftAltProperty<TLength>;
   /**
@@ -76,7 +76,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftColorAlt?: MsoBorderLeftColorAltProperty;
   /**
@@ -86,7 +86,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftStyleAlt?: MsoBorderLeftStyleAltProperty;
   /**
@@ -96,7 +96,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftWidthAlt?: MsoBorderLeftWidthAltProperty<TLength>;
   /**
@@ -106,7 +106,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightAlt?: MsoBorderRightAltProperty<TLength>;
   /**
@@ -116,7 +116,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightColorAlt?: MsoBorderRightColorAltProperty;
   /**
@@ -126,7 +126,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightStyleAlt?: MsoBorderRightStyleAltProperty;
   /**
@@ -136,7 +136,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightWidthAlt?: MsoBorderRightWidthAltProperty<TLength>;
   /**
@@ -146,7 +146,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderStyleAlt?: MsoBorderStyleAltProperty;
   /**
@@ -156,7 +156,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopAlt?: MsoBorderTopAltProperty<TLength>;
   /**
@@ -166,7 +166,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopColorAlt?: MsoBorderTopColorAltProperty;
   /**
@@ -176,7 +176,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopStyleAlt?: MsoBorderTopStyleAltProperty;
   /**
@@ -186,7 +186,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopWidthAlt?: MsoBorderTopWidthAltProperty<TLength>;
   /**
@@ -196,7 +196,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderWidthAlt?: MsoBorderWidthAltProperty<TLength>;
   /**
@@ -206,7 +206,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoColorAlt?: MsoColorAltProperty;
   /**
@@ -224,7 +224,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeightAlt?: MsoHeightAltProperty;
   /**
@@ -234,7 +234,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoLayoutGridCharAlt?: MsoLayoutGridCharAltProperty;
   /**
@@ -244,7 +244,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineHeightAlt?: MsoLineHeightAltProperty<TLength>;
   /**
@@ -254,7 +254,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   msoMarginBottomAlt?: MsoMarginBottomAltProperty<TLength>;
   /**
@@ -272,7 +272,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   msoMarginTopAlt?: MsoMarginTopAltProperty<TLength>;
   /**
@@ -282,7 +282,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaddingAlt?: MsoPaddingAltProperty<TLength>;
   /**
@@ -292,7 +292,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaddingBottomAlt?: MsoPaddingBottomAltProperty<TLength>;
   /**
@@ -302,7 +302,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaddingLeftAlt?: MsoPaddingLeftAltProperty<TLength>;
   /**
@@ -312,7 +312,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaddingRightAlt?: MsoPaddingRightAltProperty<TLength>;
   /**
@@ -322,7 +322,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaddingTopAlt?: MsoPaddingTopAltProperty<TLength>;
   /**
@@ -332,7 +332,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`auto` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableLayoutAlt?: MsoTableLayoutAltProperty;
   /**
@@ -350,7 +350,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoVerticalAlignAlt?: MsoVerticalAlignAltProperty;
   /**
@@ -360,7 +360,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoWidthAlt?: MsoWidthAltProperty;
 }
@@ -379,7 +379,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBackground?: MsoBackgroundProperty;
   /**
@@ -387,7 +387,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBackgroundSource?: MsoBackgroundSourceProperty;
   /**
@@ -401,7 +401,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Hyperlinks`](https://stigmortenmyre.no/mso/html/concepts/ofconhyperlinks.htm)
+   * @see [`Frames`](TODO)
    */
   msoBookmark?: MsoBookmarkProperty;
   /**
@@ -409,7 +409,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetween?: MsoBorderBetweenProperty<TLength>;
   /**
@@ -417,7 +417,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenColor?: MsoBorderBetweenColorProperty;
   /**
@@ -425,7 +425,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenStyle?: MsoBorderBetweenStyleProperty;
   /**
@@ -433,7 +433,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenWidth?: MsoBorderBetweenWidthProperty<TLength>;
   /**
@@ -441,7 +441,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBorderBottomSource?: MsoBorderBottomSourceProperty;
   /**
@@ -449,7 +449,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`box` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderEffect?: MsoBorderEffectProperty;
   /**
@@ -457,7 +457,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBorderLeftSource?: MsoBorderLeftSourceProperty;
   /**
@@ -465,7 +465,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBorderRightSource?: MsoBorderRightSourceProperty;
   /**
@@ -473,7 +473,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderShadow?: MsoBorderShadowProperty;
   /**
@@ -481,7 +481,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBorderSource?: MsoBorderSourceProperty;
   /**
@@ -489,7 +489,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoBorderTopSource?: MsoBorderTopSourceProperty;
   /**
@@ -497,7 +497,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoBreakType?: MsoBreakTypeProperty;
   /**
@@ -569,7 +569,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoBulletImage?: MsoBulletImageProperty;
   /**
@@ -577,7 +577,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoCellSpecial?: MsoCellSpecialProperty;
   /**
@@ -585,7 +585,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoCellspacing?: MsoCellspacingProperty<TLength>;
   /**
@@ -593,7 +593,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoCharIndent?: MsoCharIndentProperty<TLength>;
   /**
@@ -601,7 +601,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoCharIndentCount?: MsoCharIndentCountProperty;
   /**
@@ -609,7 +609,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoCharIndentSize?: MsoCharIndentSizeProperty<TLength>;
   /**
@@ -617,7 +617,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoCharType?: MsoCharTypeProperty;
   /**
@@ -625,7 +625,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoCharWrap?: MsoCharWrapProperty;
   /**
@@ -639,7 +639,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoColorSource?: MsoColorSourceProperty;
   /**
@@ -647,7 +647,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoColumnBreakBefore?: MsoColumnBreakBeforeProperty;
   /**
@@ -655,7 +655,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoColumnSeparator?: MsoColumnSeparatorProperty;
   /**
@@ -663,7 +663,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoColumns?: MsoColumnsProperty<TLength>;
   /**
@@ -671,7 +671,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoCommentAuthor?: MsoCommentAuthorProperty;
   /**
@@ -679,7 +679,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoCommentContinuation?: MsoCommentContinuationProperty;
   /**
@@ -687,7 +687,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoCommentId?: MsoCommentIdProperty;
   /**
@@ -695,7 +695,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoCommentReference?: MsoCommentReferenceProperty;
   /**
@@ -703,7 +703,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`new-cell` |
    *
-   * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
+   * @see [`Frames`](TODO)
    */
   msoDataPlacement?: MsoDataPlacementProperty;
   /**
@@ -711,7 +711,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDefaultHeight?: MsoDefaultHeightProperty<TLength>;
   /**
@@ -719,7 +719,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDefaultWidth?: MsoDefaultWidthProperty<TLength>;
   /**
@@ -727,7 +727,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalDown?: MsoDiagonalDownProperty<TLength>;
   /**
@@ -735,7 +735,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalDownColor?: MsoDiagonalDownColorProperty;
   /**
@@ -743,7 +743,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalDownSource?: MsoDiagonalDownSourceProperty;
   /**
@@ -751,7 +751,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalDownStyle?: MsoDiagonalDownStyleProperty;
   /**
@@ -759,7 +759,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalDownWidth?: MsoDiagonalDownWidthProperty<TLength>;
   /**
@@ -767,7 +767,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalUp?: MsoDiagonalUpProperty<TLength>;
   /**
@@ -775,7 +775,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalUpColor?: MsoDiagonalUpColorProperty;
   /**
@@ -783,7 +783,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalUpSource?: MsoDiagonalUpSourceProperty;
   /**
@@ -791,7 +791,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalUpStyle?: MsoDiagonalUpStyleProperty;
   /**
@@ -799,7 +799,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoDiagonalUpWidth?: MsoDiagonalUpWidthProperty<TLength>;
   /**
@@ -807,7 +807,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoDisplayedDecimalSeparator?: MsoDisplayedDecimalSeparatorProperty;
   /**
@@ -815,7 +815,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoDisplayedThousandSeparator?: MsoDisplayedThousandSeparatorProperty;
   /**
@@ -823,7 +823,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoElement?: MsoElementProperty;
   /**
@@ -831,7 +831,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementAnchorHorizontal?: MsoElementAnchorHorizontalProperty;
   /**
@@ -839,7 +839,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementAnchorLock?: MsoElementAnchorLockProperty;
   /**
@@ -847,7 +847,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementAnchorVertical?: MsoElementAnchorVerticalProperty;
   /**
@@ -855,7 +855,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementFrameHeight?: MsoElementFrameHeightProperty<TLength>;
   /**
@@ -863,7 +863,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementFrameHspace?: MsoElementFrameHspaceProperty<TLength>;
   /**
@@ -871,7 +871,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementFrameVspace?: MsoElementFrameVspaceProperty<TLength>;
   /**
@@ -879,7 +879,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementFrameWidth?: MsoElementFrameWidthProperty<TLength>;
   /**
@@ -887,7 +887,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementLeft?: MsoElementLeftProperty<TLength>;
   /**
@@ -895,7 +895,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementLinespan?: MsoElementLinespanProperty;
   /**
@@ -903,7 +903,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementTop?: MsoElementTopProperty<TLength>;
   /**
@@ -911,7 +911,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   msoElementWrap?: MsoElementWrapProperty;
   /**
@@ -919,7 +919,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationNotice?: MsoEndnoteContinuationNoticeProperty;
   /**
@@ -927,7 +927,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationNoticeId?: MsoEndnoteContinuationNoticeIdProperty;
   /**
@@ -935,7 +935,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationNoticeSrc?: MsoEndnoteContinuationNoticeSrcProperty;
   /**
@@ -943,7 +943,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationSeparator?: MsoEndnoteContinuationSeparatorProperty;
   /**
@@ -951,7 +951,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationSeparatorId?: MsoEndnoteContinuationSeparatorIdProperty;
   /**
@@ -959,7 +959,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteContinuationSeparatorSrc?: MsoEndnoteContinuationSeparatorSrcProperty;
   /**
@@ -967,7 +967,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`normal` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteDisplay?: MsoEndnoteDisplayProperty;
   /**
@@ -975,7 +975,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteId?: MsoEndnoteIdProperty;
   /**
@@ -983,7 +983,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteNumbering?: MsoEndnoteNumberingProperty;
   /**
@@ -991,7 +991,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteNumberingRestart?: MsoEndnoteNumberingRestartProperty;
   /**
@@ -999,7 +999,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteNumberingStart?: MsoEndnoteNumberingStartProperty;
   /**
@@ -1007,7 +1007,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteNumberingStyle?: MsoEndnoteNumberingStyleProperty;
   /**
@@ -1015,7 +1015,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`end-of-document` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnotePosition?: MsoEndnotePositionProperty;
   /**
@@ -1023,7 +1023,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteSeparator?: MsoEndnoteSeparatorProperty;
   /**
@@ -1031,7 +1031,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteSeparatorId?: MsoEndnoteSeparatorIdProperty;
   /**
@@ -1039,7 +1039,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoEndnoteSeparatorSrc?: MsoEndnoteSeparatorSrcProperty;
   /**
@@ -1047,7 +1047,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenFooter?: MsoEvenFooterProperty;
   /**
@@ -1055,7 +1055,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenFooterId?: MsoEvenFooterIdProperty;
   /**
@@ -1063,7 +1063,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenFooterSrc?: MsoEvenFooterSrcProperty;
   /**
@@ -1071,7 +1071,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenHeader?: MsoEvenHeaderProperty;
   /**
@@ -1079,7 +1079,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenHeaderId?: MsoEvenHeaderIdProperty;
   /**
@@ -1087,7 +1087,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoEvenHeaderSrc?: MsoEvenHeaderSrcProperty;
   /**
@@ -1095,7 +1095,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFacingPages?: MsoFacingPagesProperty;
   /**
@@ -1103,7 +1103,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoFieldChange?: MsoFieldChangeProperty;
   /**
@@ -1111,7 +1111,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoFieldChangeAuthor?: MsoFieldChangeAuthorProperty;
   /**
@@ -1119,7 +1119,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoFieldChangeTime?: MsoFieldChangeTimeProperty;
   /**
@@ -1127,7 +1127,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoFieldChangeValue?: MsoFieldChangeValueProperty;
   /**
@@ -1135,7 +1135,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
+   * @see [`TODO`](TODO)
    */
   msoFieldCode?: MsoFieldCodeProperty;
   /**
@@ -1143,7 +1143,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
+   * @see [`TODO`](TODO)
    */
   msoFieldLock?: MsoFieldLockProperty;
   /**
@@ -1157,7 +1157,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstFooter?: MsoFirstFooterProperty;
   /**
@@ -1165,7 +1165,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstFooterId?: MsoFirstFooterIdProperty;
   /**
@@ -1173,7 +1173,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstFooterSrc?: MsoFirstFooterSrcProperty;
   /**
@@ -1181,7 +1181,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstHeader?: MsoFirstHeaderProperty;
   /**
@@ -1189,7 +1189,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstHeaderId?: MsoFirstHeaderIdProperty;
   /**
@@ -1197,7 +1197,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFirstHeaderSrc?: MsoFirstHeaderSrcProperty;
   /**
@@ -1205,7 +1205,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoFontCharset?: MsoFontCharsetProperty;
   /**
@@ -1237,7 +1237,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoFontKerning?: MsoFontKerningProperty<TLength>;
   /**
@@ -1299,7 +1299,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoFontWidth?: MsoFontWidthProperty<TLength>;
   /**
@@ -1307,7 +1307,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFooter?: MsoFooterProperty;
   /**
@@ -1315,7 +1315,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFooterData?: MsoFooterDataProperty;
   /**
@@ -1323,7 +1323,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFooterId?: MsoFooterIdProperty;
   /**
@@ -1331,7 +1331,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFooterMargin?: MsoFooterMarginProperty<TLength>;
   /**
@@ -1339,7 +1339,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoFooterSrc?: MsoFooterSrcProperty;
   /**
@@ -1347,7 +1347,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationNotice?: MsoFootnoteContinuationNoticeProperty;
   /**
@@ -1355,7 +1355,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationNoticeId?: MsoFootnoteContinuationNoticeIdProperty;
   /**
@@ -1363,7 +1363,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationNoticeSrc?: MsoFootnoteContinuationNoticeSrcProperty;
   /**
@@ -1371,7 +1371,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationSeparator?: MsoFootnoteContinuationSeparatorProperty;
   /**
@@ -1379,7 +1379,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationSeparatorId?: MsoFootnoteContinuationSeparatorIdProperty;
   /**
@@ -1387,7 +1387,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteContinuationSeparatorSrc?: MsoFootnoteContinuationSeparatorSrcProperty;
   /**
@@ -1395,7 +1395,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteId?: MsoFootnoteIdProperty;
   /**
@@ -1403,7 +1403,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteNumbering?: MsoFootnoteNumberingProperty;
   /**
@@ -1411,7 +1411,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteNumberingRestart?: MsoFootnoteNumberingRestartProperty;
   /**
@@ -1419,7 +1419,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteNumberingStart?: MsoFootnoteNumberingStartProperty;
   /**
@@ -1427,7 +1427,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteNumberingStyle?: MsoFootnoteNumberingStyleProperty;
   /**
@@ -1435,7 +1435,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`beneath-text` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnotePosition?: MsoFootnotePositionProperty;
   /**
@@ -1443,7 +1443,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteSeparator?: MsoFootnoteSeparatorProperty;
   /**
@@ -1451,7 +1451,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteSeparatorId?: MsoFootnoteSeparatorIdProperty;
   /**
@@ -1459,7 +1459,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoFootnoteSeparatorSrc?: MsoFootnoteSeparatorSrcProperty;
   /**
@@ -1473,7 +1473,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoFormsProtection?: MsoFormsProtectionProperty;
   /**
@@ -1487,7 +1487,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridBottom?: MsoGridBottomProperty<TLength>;
   /**
@@ -1495,7 +1495,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridBottomCount?: MsoGridBottomCountProperty;
   /**
@@ -1503,7 +1503,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridLeft?: MsoGridLeftProperty<TLength>;
   /**
@@ -1511,7 +1511,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridLeftCount?: MsoGridLeftCountProperty;
   /**
@@ -1519,7 +1519,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridRight?: MsoGridRightProperty<TLength>;
   /**
@@ -1527,7 +1527,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridRightCount?: MsoGridRightCountProperty;
   /**
@@ -1535,7 +1535,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridTop?: MsoGridTopProperty<TLength>;
   /**
@@ -1543,7 +1543,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGridTopCount?: MsoGridTopCountProperty;
   /**
@@ -1551,7 +1551,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`ltr` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGutterDirection?: MsoGutterDirectionProperty;
   /**
@@ -1559,7 +1559,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoGutterMargin?: MsoGutterMarginProperty<TLength>;
   /**
@@ -1567,7 +1567,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`side` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoGutterPosition?: MsoGutterPositionProperty;
   /**
@@ -1575,7 +1575,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoHansiFontFamily?: MsoHansiFontFamilyProperty;
   /**
@@ -1583,7 +1583,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeader?: MsoHeaderProperty;
   /**
@@ -1591,7 +1591,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeaderData?: MsoHeaderDataProperty;
   /**
@@ -1599,7 +1599,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeaderId?: MsoHeaderIdProperty;
   /**
@@ -1607,7 +1607,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeaderMargin?: MsoHeaderMarginProperty<TLength>;
   /**
@@ -1615,7 +1615,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeaderSrc?: MsoHeaderSrcProperty;
   /**
@@ -1623,7 +1623,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeightRule?: MsoHeightRuleProperty;
   /**
@@ -1631,7 +1631,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoHeightSource?: MsoHeightSourceProperty;
   /**
@@ -1639,7 +1639,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoHide?: MsoHideProperty;
   /**
@@ -1647,7 +1647,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoHighlight?: MsoHighlightProperty;
   /**
@@ -1655,7 +1655,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`left` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoHorizontalPageAlign?: MsoHorizontalPageAlignProperty;
   /**
@@ -1663,7 +1663,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoHyphenate?: MsoHyphenateProperty;
   /**
@@ -1671,7 +1671,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
+   * @see [`Frames`](TODO)
    */
   msoIgnore?: MsoIgnoreProperty;
   /**
@@ -1679,7 +1679,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoKinsokuOverflow?: MsoKinsokuOverflowProperty;
   /**
@@ -1687,7 +1687,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoLayoutGridAlign?: MsoLayoutGridAlignProperty;
   /**
@@ -1695,7 +1695,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoLayoutGridOrigin?: MsoLayoutGridOriginProperty<TLength>;
   /**
@@ -1703,7 +1703,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelInherit?: MsoLevelInheritProperty;
   /**
@@ -1711,7 +1711,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelLegacy?: MsoLevelLegacyProperty;
   /**
@@ -1719,7 +1719,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelLegacyIndent?: MsoLevelLegacyIndentProperty<TLength>;
   /**
@@ -1727,7 +1727,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelLegacySpace?: MsoLevelLegacySpaceProperty<TLength>;
   /**
@@ -1735,7 +1735,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelLegalFormat?: MsoLevelLegalFormatProperty;
   /**
@@ -1743,7 +1743,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`arabic` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelNumberFormat?: MsoLevelNumberFormatProperty;
   /**
@@ -1751,7 +1751,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`left` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelNumberPosition?: MsoLevelNumberPositionProperty;
   /**
@@ -1759,7 +1759,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`restart` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelNumbering?: MsoLevelNumberingProperty;
   /**
@@ -1767,7 +1767,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelResetLevel?: MsoLevelResetLevelProperty;
   /**
@@ -1775,7 +1775,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`1` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelStartAt?: MsoLevelStartAtProperty;
   /**
@@ -1783,7 +1783,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelStyleLink?: MsoLevelStyleLinkProperty;
   /**
@@ -1791,7 +1791,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`tab` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelSuffix?: MsoLevelSuffixProperty;
   /**
@@ -1799,7 +1799,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelTabStop?: MsoLevelTabStopProperty<TLength>;
   /**
@@ -1807,7 +1807,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoLevelText?: MsoLevelTextProperty;
   /**
@@ -1815,7 +1815,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineBreakOverride?: MsoLineBreakOverrideProperty;
   /**
@@ -1823,7 +1823,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineGrid?: MsoLineGridProperty;
   /**
@@ -1831,7 +1831,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineHeightRule?: MsoLineHeightRuleProperty;
   /**
@@ -1839,7 +1839,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineNumbersCountBy?: MsoLineNumbersCountByProperty;
   /**
@@ -1847,7 +1847,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineNumbersDistance?: MsoLineNumbersDistanceProperty<TLength>;
   /**
@@ -1855,7 +1855,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`continuous` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineNumbersRestart?: MsoLineNumbersRestartProperty;
   /**
@@ -1863,7 +1863,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoLineNumbersStart?: MsoLineNumbersStartProperty;
   /**
@@ -1883,7 +1883,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoList?: MsoListProperty;
   /**
@@ -1891,7 +1891,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListChange?: MsoListChangeProperty;
   /**
@@ -1899,7 +1899,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListChangeAuthor?: MsoListChangeAuthorProperty;
   /**
@@ -1907,7 +1907,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListChangeTime?: MsoListChangeTimeProperty;
   /**
@@ -1915,7 +1915,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListChangeValues?: MsoListChangeValuesProperty;
   /**
@@ -1923,7 +1923,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoListId?: MsoListIdProperty;
   /**
@@ -1931,7 +1931,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListIns?: MsoListInsProperty;
   /**
@@ -1939,7 +1939,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListInsAuthor?: MsoListInsAuthorProperty;
   /**
@@ -1947,7 +1947,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoListInsTime?: MsoListInsTimeProperty;
   /**
@@ -1955,7 +1955,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoListName?: MsoListNameProperty;
   /**
@@ -1963,7 +1963,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoListTemplateIds?: MsoListTemplateIdsProperty;
   /**
@@ -1971,7 +1971,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`multilevel` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   msoListType?: MsoListTypeProperty;
   /**
@@ -1979,7 +1979,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoMirrorMargins?: MsoMirrorMarginsProperty;
   /**
@@ -1987,7 +1987,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   msoNegativeIndentTab?: MsoNegativeIndentTabProperty;
   /**
@@ -1995,7 +1995,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoNumberFormat?: MsoNumberFormatProperty;
   /**
@@ -2003,7 +2003,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineLevel?: MsoOutlineLevelProperty;
   /**
@@ -2011,7 +2011,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineParent?: MsoOutlineParentProperty;
   /**
@@ -2019,7 +2019,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`right` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineParentCol?: MsoOutlineParentColProperty;
   /**
@@ -2027,7 +2027,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`bottom` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineParentRow?: MsoOutlineParentRowProperty;
   /**
@@ -2035,7 +2035,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`expanded` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineParentVisibility?: MsoOutlineParentVisibilityProperty;
   /**
@@ -2043,7 +2043,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`userset` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   msoOutlineStyle?: MsoOutlineStyleProperty;
   /**
@@ -2057,7 +2057,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderAligned?: MsoPageBorderAlignedProperty;
   /**
@@ -2065,7 +2065,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderArt?: MsoPageBorderArtProperty;
   /**
@@ -2073,7 +2073,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderBottomArt?: MsoPageBorderBottomArtProperty;
   /**
@@ -2081,7 +2081,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`all-pages` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderDisplay?: MsoPageBorderDisplayProperty;
   /**
@@ -2089,7 +2089,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderLeftArt?: MsoPageBorderLeftArtProperty;
   /**
@@ -2097,7 +2097,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`edge` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderOffsetFrom?: MsoPageBorderOffsetFromProperty;
   /**
@@ -2105,7 +2105,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderRightArt?: MsoPageBorderRightArtProperty;
   /**
@@ -2113,7 +2113,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderSurroundFooter?: MsoPageBorderSurroundFooterProperty;
   /**
@@ -2121,7 +2121,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderSurroundHeader?: MsoPageBorderSurroundHeaderProperty;
   /**
@@ -2129,7 +2129,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderTopArt?: MsoPageBorderTopArtProperty;
   /**
@@ -2137,7 +2137,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`in-front` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageBorderZOrder?: MsoPageBorderZOrderProperty;
   /**
@@ -2145,7 +2145,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageNumbers?: MsoPageNumbersProperty;
   /**
@@ -2153,7 +2153,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`hyphen` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageNumbersChapterSeparator?: MsoPageNumbersChapterSeparatorProperty;
   /**
@@ -2161,7 +2161,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageNumbersChapterStyle?: MsoPageNumbersChapterStyleProperty;
   /**
@@ -2169,7 +2169,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageNumbersStart?: MsoPageNumbersStartProperty;
   /**
@@ -2177,7 +2177,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageNumbersStyle?: MsoPageNumbersStyleProperty;
   /**
@@ -2185,7 +2185,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`portrait` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageOrientation?: MsoPageOrientationProperty;
   /**
@@ -2193,7 +2193,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPageScale?: MsoPageScaleProperty;
   /**
@@ -2207,7 +2207,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaperSource?: MsoPaperSourceProperty;
   /**
@@ -2215,7 +2215,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaperSourceFirstPage?: MsoPaperSourceFirstPageProperty;
   /**
@@ -2223,7 +2223,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   msoPaperSourceOtherPages?: MsoPaperSourceOtherPagesProperty;
   /**
@@ -2231,7 +2231,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoPattern?: MsoPatternProperty;
   /**
@@ -2239,7 +2239,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoPatternColor?: MsoPatternColorProperty;
   /**
@@ -2247,7 +2247,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoPatternStyle?: MsoPatternStyleProperty;
   /**
@@ -2255,7 +2255,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintArea?: MsoPrintAreaProperty;
   /**
@@ -2263,7 +2263,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintColor?: MsoPrintColorProperty;
   /**
@@ -2271,7 +2271,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintGridlines?: MsoPrintGridlinesProperty;
   /**
@@ -2279,7 +2279,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintHeadings?: MsoPrintHeadingsProperty;
   /**
@@ -2287,7 +2287,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintResolution?: MsoPrintResolutionProperty;
   /**
@@ -2295,7 +2295,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`over-then-down` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintSheetOrder?: MsoPrintSheetOrderProperty;
   /**
@@ -2303,7 +2303,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintTitleColumn?: MsoPrintTitleColumnProperty;
   /**
@@ -2311,7 +2311,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   msoPrintTitleRow?: MsoPrintTitleRowProperty;
   /**
@@ -2319,7 +2319,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoPropChange?: MsoPropChangeProperty;
   /**
@@ -2327,7 +2327,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoPropChangeAuthor?: MsoPropChangeAuthorProperty;
   /**
@@ -2335,7 +2335,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoPropChangeTime?: MsoPropChangeTimeProperty;
   /**
@@ -2343,7 +2343,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoProtection?: MsoProtectionProperty;
   /**
@@ -2351,7 +2351,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoRotate?: MsoRotateProperty;
   /**
@@ -2359,7 +2359,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoRowMarginLeft?: MsoRowMarginLeftProperty<TLength>;
   /**
@@ -2367,7 +2367,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoRowMarginRight?: MsoRowMarginRightProperty<TLength>;
   /**
@@ -2375,7 +2375,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoRubyMerge?: MsoRubyMergeProperty;
   /**
@@ -2383,7 +2383,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoRubyVisibility?: MsoRubyVisibilityProperty;
   /**
@@ -2403,7 +2403,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoShading?: MsoShadingProperty;
   /**
@@ -2417,7 +2417,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoSpaceAbove?: MsoSpaceAboveProperty;
   /**
@@ -2425,7 +2425,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoSpaceBelow?: MsoSpaceBelowProperty;
   /**
@@ -2433,7 +2433,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   msoSpacerun?: MsoSpacerunProperty;
   /**
@@ -2441,7 +2441,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   msoSpecialCharacter?: MsoSpecialCharacterProperty;
   /**
@@ -2491,7 +2491,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Master Documents`](https://stigmortenmyre.no/mso/html/word/wdconmasterdocuments.htm)
+   * @see [`Frames`](TODO)
    */
   msoSubdocument?: MsoSubdocumentProperty;
   /**
@@ -2505,7 +2505,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   msoTabCount?: MsoTabCountProperty;
   /**
@@ -2513,7 +2513,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`margin` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableAnchorHorizontal?: MsoTableAnchorHorizontalProperty;
   /**
@@ -2521,7 +2521,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableAnchorVertical?: MsoTableAnchorVerticalProperty;
   /**
@@ -2529,7 +2529,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableBspace?: MsoTableBspaceProperty<TLength>;
   /**
@@ -2537,7 +2537,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableDelAuthor?: MsoTableDelAuthorProperty;
   /**
@@ -2545,7 +2545,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableDelTime?: MsoTableDelTimeProperty;
   /**
@@ -2553,7 +2553,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableDeleted?: MsoTableDeletedProperty;
   /**
@@ -2561,7 +2561,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`normal` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableDir?: MsoTableDirProperty;
   /**
@@ -2569,7 +2569,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableInsAuthor?: MsoTableInsAuthorProperty;
   /**
@@ -2577,7 +2577,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableInsTime?: MsoTableInsTimeProperty;
   /**
@@ -2585,7 +2585,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableInserted?: MsoTableInsertedProperty;
   /**
@@ -2593,7 +2593,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableLeft?: MsoTableLeftProperty<TLength>;
   /**
@@ -2601,7 +2601,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableLspace?: MsoTableLspaceProperty<TLength>;
   /**
@@ -2615,7 +2615,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTablePropAuthor?: MsoTablePropAuthorProperty;
   /**
@@ -2623,7 +2623,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTablePropChange?: MsoTablePropChangeProperty;
   /**
@@ -2631,7 +2631,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   msoTablePropTime?: MsoTablePropTimeProperty;
   /**
@@ -2639,7 +2639,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableRspace?: MsoTableRspaceProperty<TLength>;
   /**
@@ -2647,7 +2647,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableTop?: MsoTableTopProperty<TLength>;
   /**
@@ -2655,7 +2655,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableTspace?: MsoTableTspaceProperty<TLength>;
   /**
@@ -2663,7 +2663,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTableWrap?: MsoTableWrapProperty;
   /**
@@ -2671,7 +2671,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextAnimation?: MsoTextAnimationProperty;
   /**
@@ -2679,7 +2679,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextCombineBrackets?: MsoTextCombineBracketsProperty;
   /**
@@ -2687,7 +2687,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextCombineId?: MsoTextCombineIdProperty;
   /**
@@ -2695,7 +2695,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextControl?: MsoTextControlProperty;
   /**
@@ -2703,7 +2703,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextFitId?: MsoTextFitIdProperty;
   /**
@@ -2711,7 +2711,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`horizontal` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextOrientation?: MsoTextOrientationProperty;
   /**
@@ -2719,7 +2719,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoTextRaise?: MsoTextRaiseProperty<TLength>;
   /**
@@ -2727,7 +2727,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   msoTitlePage?: MsoTitlePageProperty;
   /**
@@ -2735,7 +2735,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoTnyCompress?: MsoTnyCompressProperty;
   /**
@@ -2743,7 +2743,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoUnsynced?: MsoUnsyncedProperty;
   /**
@@ -2757,7 +2757,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`top` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   msoVerticalPageAlign?: MsoVerticalPageAlignProperty;
   /**
@@ -2765,7 +2765,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoWidthSource?: MsoWidthSourceProperty;
   /**
@@ -2779,7 +2779,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoXlrowspan?: MsoXlrowspanProperty;
   /**
@@ -2787,7 +2787,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   msoZeroHeight?: MsoZeroHeightProperty;
 }
@@ -2798,7 +2798,7 @@ export interface AnsiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`medium` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoAnsiFontSize?: MsoAnsiFontSizeProperty<TLength>;
   /**
@@ -2806,7 +2806,7 @@ export interface AnsiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoAnsiFontStyle?: MsoAnsiFontStyleProperty;
   /**
@@ -2814,7 +2814,7 @@ export interface AnsiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoAnsiFontWeight?: MsoAnsiFontWeightProperty;
   /**
@@ -2822,7 +2822,7 @@ export interface AnsiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoAnsiLanguage?: MsoAnsiLanguageProperty;
 }
@@ -2833,7 +2833,7 @@ export interface AsciiProperties {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoAsciiFontFamily?: MsoAsciiFontFamilyProperty;
 }
@@ -2844,7 +2844,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`off` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiFlag?: MsoBidiFlagProperty;
   /**
@@ -2852,7 +2852,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiFontFamily?: MsoBidiFontFamilyProperty;
   /**
@@ -2860,7 +2860,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`medium` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiFontSize?: MsoBidiFontSizeProperty<TLength>;
   /**
@@ -2868,7 +2868,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiFontStyle?: MsoBidiFontStyleProperty;
   /**
@@ -2876,7 +2876,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiFontWeight?: MsoBidiFontWeightProperty;
   /**
@@ -2884,7 +2884,7 @@ export interface BidiProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoBidiLanguage?: MsoBidiLanguageProperty;
 }
@@ -2895,7 +2895,7 @@ export interface FareastProperties {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   msoFareastFontFamily?: MsoFareastFontFamilyProperty;
   /**
@@ -2903,7 +2903,7 @@ export interface FareastProperties {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoFareastHint?: MsoFareastHintProperty;
   /**
@@ -2911,7 +2911,7 @@ export interface FareastProperties {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   msoFareastLanguage?: MsoFareastLanguageProperty;
 }
@@ -3008,7 +3008,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-alt'?: MsoBorderBottomAltProperty<TLength>;
   /**
@@ -3018,7 +3018,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-color-alt'?: MsoBorderBottomColorAltProperty;
   /**
@@ -3028,7 +3028,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-style-alt'?: MsoBorderBottomStyleAltProperty;
   /**
@@ -3038,7 +3038,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-width-alt'?: MsoBorderBottomWidthAltProperty<TLength>;
   /**
@@ -3048,7 +3048,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-color-alt'?: MsoBorderColorAltProperty;
   /**
@@ -3058,7 +3058,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-alt'?: MsoBorderLeftAltProperty<TLength>;
   /**
@@ -3068,7 +3068,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-color-alt'?: MsoBorderLeftColorAltProperty;
   /**
@@ -3078,7 +3078,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-style-alt'?: MsoBorderLeftStyleAltProperty;
   /**
@@ -3088,7 +3088,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-width-alt'?: MsoBorderLeftWidthAltProperty<TLength>;
   /**
@@ -3098,7 +3098,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-alt'?: MsoBorderRightAltProperty<TLength>;
   /**
@@ -3108,7 +3108,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-color-alt'?: MsoBorderRightColorAltProperty;
   /**
@@ -3118,7 +3118,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-style-alt'?: MsoBorderRightStyleAltProperty;
   /**
@@ -3128,7 +3128,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-width-alt'?: MsoBorderRightWidthAltProperty<TLength>;
   /**
@@ -3138,7 +3138,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-style-alt'?: MsoBorderStyleAltProperty;
   /**
@@ -3148,7 +3148,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-alt'?: MsoBorderTopAltProperty<TLength>;
   /**
@@ -3158,7 +3158,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-color-alt'?: MsoBorderTopColorAltProperty;
   /**
@@ -3168,7 +3168,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-style-alt'?: MsoBorderTopStyleAltProperty;
   /**
@@ -3178,7 +3178,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-width-alt'?: MsoBorderTopWidthAltProperty<TLength>;
   /**
@@ -3188,7 +3188,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-width-alt'?: MsoBorderWidthAltProperty<TLength>;
   /**
@@ -3198,7 +3198,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-color-alt'?: MsoColorAltProperty;
   /**
@@ -3216,7 +3216,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-height-alt'?: MsoHeightAltProperty;
   /**
@@ -3226,7 +3226,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-layout-grid-char-alt'?: MsoLayoutGridCharAltProperty;
   /**
@@ -3236,7 +3236,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-height-alt'?: MsoLineHeightAltProperty<TLength>;
   /**
@@ -3246,7 +3246,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   'mso-margin-bottom-alt'?: MsoMarginBottomAltProperty<TLength>;
   /**
@@ -3264,7 +3264,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   'mso-margin-top-alt'?: MsoMarginTopAltProperty<TLength>;
   /**
@@ -3274,7 +3274,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-padding-alt'?: MsoPaddingAltProperty<TLength>;
   /**
@@ -3284,7 +3284,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-padding-bottom-alt'?: MsoPaddingBottomAltProperty<TLength>;
   /**
@@ -3294,7 +3294,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-padding-left-alt'?: MsoPaddingLeftAltProperty<TLength>;
   /**
@@ -3304,7 +3304,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-padding-right-alt'?: MsoPaddingRightAltProperty<TLength>;
   /**
@@ -3314,7 +3314,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-padding-top-alt'?: MsoPaddingTopAltProperty<TLength>;
   /**
@@ -3324,7 +3324,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`auto` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-layout-alt'?: MsoTableLayoutAltProperty;
   /**
@@ -3342,7 +3342,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-vertical-align-alt'?: MsoVerticalAlignAltProperty;
   /**
@@ -3352,7 +3352,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-width-alt'?: MsoWidthAltProperty;
 }
@@ -3371,7 +3371,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-background'?: MsoBackgroundProperty;
   /**
@@ -3379,7 +3379,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-background-source'?: MsoBackgroundSourceProperty;
   /**
@@ -3393,7 +3393,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Hyperlinks`](https://stigmortenmyre.no/mso/html/concepts/ofconhyperlinks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bookmark'?: MsoBookmarkProperty;
   /**
@@ -3401,7 +3401,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between'?: MsoBorderBetweenProperty<TLength>;
   /**
@@ -3409,7 +3409,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-color'?: MsoBorderBetweenColorProperty;
   /**
@@ -3417,7 +3417,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-style'?: MsoBorderBetweenStyleProperty;
   /**
@@ -3425,7 +3425,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-width'?: MsoBorderBetweenWidthProperty<TLength>;
   /**
@@ -3433,7 +3433,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-border-bottom-source'?: MsoBorderBottomSourceProperty;
   /**
@@ -3441,7 +3441,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`box` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-effect'?: MsoBorderEffectProperty;
   /**
@@ -3449,7 +3449,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-border-left-source'?: MsoBorderLeftSourceProperty;
   /**
@@ -3457,7 +3457,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-border-right-source'?: MsoBorderRightSourceProperty;
   /**
@@ -3465,7 +3465,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-shadow'?: MsoBorderShadowProperty;
   /**
@@ -3473,7 +3473,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-border-source'?: MsoBorderSourceProperty;
   /**
@@ -3481,7 +3481,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-border-top-source'?: MsoBorderTopSourceProperty;
   /**
@@ -3489,7 +3489,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-break-type'?: MsoBreakTypeProperty;
   /**
@@ -3561,7 +3561,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bullet-image'?: MsoBulletImageProperty;
   /**
@@ -3569,7 +3569,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-cell-special'?: MsoCellSpecialProperty;
   /**
@@ -3577,7 +3577,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-cellspacing'?: MsoCellspacingProperty<TLength>;
   /**
@@ -3585,7 +3585,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-char-indent'?: MsoCharIndentProperty<TLength>;
   /**
@@ -3593,7 +3593,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-char-indent-count'?: MsoCharIndentCountProperty;
   /**
@@ -3601,7 +3601,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-char-indent-size'?: MsoCharIndentSizeProperty<TLength>;
   /**
@@ -3609,7 +3609,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-char-type'?: MsoCharTypeProperty;
   /**
@@ -3617,7 +3617,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-char-wrap'?: MsoCharWrapProperty;
   /**
@@ -3631,7 +3631,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-color-source'?: MsoColorSourceProperty;
   /**
@@ -3639,7 +3639,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-column-break-before'?: MsoColumnBreakBeforeProperty;
   /**
@@ -3647,7 +3647,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-column-separator'?: MsoColumnSeparatorProperty;
   /**
@@ -3655,7 +3655,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-columns'?: MsoColumnsProperty<TLength>;
   /**
@@ -3663,7 +3663,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-comment-author'?: MsoCommentAuthorProperty;
   /**
@@ -3671,7 +3671,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-comment-continuation'?: MsoCommentContinuationProperty;
   /**
@@ -3679,7 +3679,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-comment-id'?: MsoCommentIdProperty;
   /**
@@ -3687,7 +3687,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-comment-reference'?: MsoCommentReferenceProperty;
   /**
@@ -3695,7 +3695,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`new-cell` |
    *
-   * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-data-placement'?: MsoDataPlacementProperty;
   /**
@@ -3703,7 +3703,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-default-height'?: MsoDefaultHeightProperty<TLength>;
   /**
@@ -3711,7 +3711,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-default-width'?: MsoDefaultWidthProperty<TLength>;
   /**
@@ -3719,7 +3719,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-down'?: MsoDiagonalDownProperty<TLength>;
   /**
@@ -3727,7 +3727,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-down-color'?: MsoDiagonalDownColorProperty;
   /**
@@ -3735,7 +3735,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-down-source'?: MsoDiagonalDownSourceProperty;
   /**
@@ -3743,7 +3743,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-down-style'?: MsoDiagonalDownStyleProperty;
   /**
@@ -3751,7 +3751,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-down-width'?: MsoDiagonalDownWidthProperty<TLength>;
   /**
@@ -3759,7 +3759,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-up'?: MsoDiagonalUpProperty<TLength>;
   /**
@@ -3767,7 +3767,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-up-color'?: MsoDiagonalUpColorProperty;
   /**
@@ -3775,7 +3775,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-up-source'?: MsoDiagonalUpSourceProperty;
   /**
@@ -3783,7 +3783,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-up-style'?: MsoDiagonalUpStyleProperty;
   /**
@@ -3791,7 +3791,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`medium` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-diagonal-up-width'?: MsoDiagonalUpWidthProperty<TLength>;
   /**
@@ -3799,7 +3799,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-displayed-decimal-separator'?: MsoDisplayedDecimalSeparatorProperty;
   /**
@@ -3807,7 +3807,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-displayed-thousand-separator'?: MsoDisplayedThousandSeparatorProperty;
   /**
@@ -3815,7 +3815,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element'?: MsoElementProperty;
   /**
@@ -3823,7 +3823,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-anchor-horizontal'?: MsoElementAnchorHorizontalProperty;
   /**
@@ -3831,7 +3831,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-anchor-lock'?: MsoElementAnchorLockProperty;
   /**
@@ -3839,7 +3839,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-anchor-vertical'?: MsoElementAnchorVerticalProperty;
   /**
@@ -3847,7 +3847,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-frame-height'?: MsoElementFrameHeightProperty<TLength>;
   /**
@@ -3855,7 +3855,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-frame-hspace'?: MsoElementFrameHspaceProperty<TLength>;
   /**
@@ -3863,7 +3863,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-frame-vspace'?: MsoElementFrameVspaceProperty<TLength>;
   /**
@@ -3871,7 +3871,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-frame-width'?: MsoElementFrameWidthProperty<TLength>;
   /**
@@ -3879,7 +3879,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-left'?: MsoElementLeftProperty<TLength>;
   /**
@@ -3887,7 +3887,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-linespan'?: MsoElementLinespanProperty;
   /**
@@ -3895,7 +3895,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-top'?: MsoElementTopProperty<TLength>;
   /**
@@ -3903,7 +3903,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-element-wrap'?: MsoElementWrapProperty;
   /**
@@ -3911,7 +3911,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-notice'?: MsoEndnoteContinuationNoticeProperty;
   /**
@@ -3919,7 +3919,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-notice-id'?: MsoEndnoteContinuationNoticeIdProperty;
   /**
@@ -3927,7 +3927,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-notice-src'?: MsoEndnoteContinuationNoticeSrcProperty;
   /**
@@ -3935,7 +3935,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-separator'?: MsoEndnoteContinuationSeparatorProperty;
   /**
@@ -3943,7 +3943,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-separator-id'?: MsoEndnoteContinuationSeparatorIdProperty;
   /**
@@ -3951,7 +3951,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-continuation-separator-src'?: MsoEndnoteContinuationSeparatorSrcProperty;
   /**
@@ -3959,7 +3959,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`normal` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-display'?: MsoEndnoteDisplayProperty;
   /**
@@ -3967,7 +3967,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-id'?: MsoEndnoteIdProperty;
   /**
@@ -3975,7 +3975,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-numbering'?: MsoEndnoteNumberingProperty;
   /**
@@ -3983,7 +3983,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-numbering-restart'?: MsoEndnoteNumberingRestartProperty;
   /**
@@ -3991,7 +3991,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-numbering-start'?: MsoEndnoteNumberingStartProperty;
   /**
@@ -3999,7 +3999,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-numbering-style'?: MsoEndnoteNumberingStyleProperty;
   /**
@@ -4007,7 +4007,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`end-of-document` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-position'?: MsoEndnotePositionProperty;
   /**
@@ -4015,7 +4015,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-separator'?: MsoEndnoteSeparatorProperty;
   /**
@@ -4023,7 +4023,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-separator-id'?: MsoEndnoteSeparatorIdProperty;
   /**
@@ -4031,7 +4031,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-endnote-separator-src'?: MsoEndnoteSeparatorSrcProperty;
   /**
@@ -4039,7 +4039,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-footer'?: MsoEvenFooterProperty;
   /**
@@ -4047,7 +4047,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-footer-id'?: MsoEvenFooterIdProperty;
   /**
@@ -4055,7 +4055,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-footer-src'?: MsoEvenFooterSrcProperty;
   /**
@@ -4063,7 +4063,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-header'?: MsoEvenHeaderProperty;
   /**
@@ -4071,7 +4071,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-header-id'?: MsoEvenHeaderIdProperty;
   /**
@@ -4079,7 +4079,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-even-header-src'?: MsoEvenHeaderSrcProperty;
   /**
@@ -4087,7 +4087,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-facing-pages'?: MsoFacingPagesProperty;
   /**
@@ -4095,7 +4095,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-field-change'?: MsoFieldChangeProperty;
   /**
@@ -4103,7 +4103,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-field-change-author'?: MsoFieldChangeAuthorProperty;
   /**
@@ -4111,7 +4111,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-field-change-time'?: MsoFieldChangeTimeProperty;
   /**
@@ -4119,7 +4119,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-field-change-value'?: MsoFieldChangeValueProperty;
   /**
@@ -4127,7 +4127,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
+   * @see [`TODO`](TODO)
    */
   'mso-field-code'?: MsoFieldCodeProperty;
   /**
@@ -4135,7 +4135,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
+   * @see [`TODO`](TODO)
    */
   'mso-field-lock'?: MsoFieldLockProperty;
   /**
@@ -4149,7 +4149,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-footer'?: MsoFirstFooterProperty;
   /**
@@ -4157,7 +4157,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-footer-id'?: MsoFirstFooterIdProperty;
   /**
@@ -4165,7 +4165,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-footer-src'?: MsoFirstFooterSrcProperty;
   /**
@@ -4173,7 +4173,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-header'?: MsoFirstHeaderProperty;
   /**
@@ -4181,7 +4181,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-header-id'?: MsoFirstHeaderIdProperty;
   /**
@@ -4189,7 +4189,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-first-header-src'?: MsoFirstHeaderSrcProperty;
   /**
@@ -4197,7 +4197,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-font-charset'?: MsoFontCharsetProperty;
   /**
@@ -4229,7 +4229,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-font-kerning'?: MsoFontKerningProperty<TLength>;
   /**
@@ -4291,7 +4291,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-font-width'?: MsoFontWidthProperty<TLength>;
   /**
@@ -4299,7 +4299,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footer'?: MsoFooterProperty;
   /**
@@ -4307,7 +4307,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footer-data'?: MsoFooterDataProperty;
   /**
@@ -4315,7 +4315,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footer-id'?: MsoFooterIdProperty;
   /**
@@ -4323,7 +4323,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footer-margin'?: MsoFooterMarginProperty<TLength>;
   /**
@@ -4331,7 +4331,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footer-src'?: MsoFooterSrcProperty;
   /**
@@ -4339,7 +4339,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-notice'?: MsoFootnoteContinuationNoticeProperty;
   /**
@@ -4347,7 +4347,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-notice-id'?: MsoFootnoteContinuationNoticeIdProperty;
   /**
@@ -4355,7 +4355,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-notice-src'?: MsoFootnoteContinuationNoticeSrcProperty;
   /**
@@ -4363,7 +4363,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-separator'?: MsoFootnoteContinuationSeparatorProperty;
   /**
@@ -4371,7 +4371,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-separator-id'?: MsoFootnoteContinuationSeparatorIdProperty;
   /**
@@ -4379,7 +4379,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-continuation-separator-src'?: MsoFootnoteContinuationSeparatorSrcProperty;
   /**
@@ -4387,7 +4387,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-id'?: MsoFootnoteIdProperty;
   /**
@@ -4395,7 +4395,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-numbering'?: MsoFootnoteNumberingProperty;
   /**
@@ -4403,7 +4403,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-numbering-restart'?: MsoFootnoteNumberingRestartProperty;
   /**
@@ -4411,7 +4411,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-numbering-start'?: MsoFootnoteNumberingStartProperty;
   /**
@@ -4419,7 +4419,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-numbering-style'?: MsoFootnoteNumberingStyleProperty;
   /**
@@ -4427,7 +4427,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`beneath-text` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-position'?: MsoFootnotePositionProperty;
   /**
@@ -4435,7 +4435,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-separator'?: MsoFootnoteSeparatorProperty;
   /**
@@ -4443,7 +4443,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-separator-id'?: MsoFootnoteSeparatorIdProperty;
   /**
@@ -4451,7 +4451,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-footnote-separator-src'?: MsoFootnoteSeparatorSrcProperty;
   /**
@@ -4465,7 +4465,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-forms-protection'?: MsoFormsProtectionProperty;
   /**
@@ -4479,7 +4479,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-bottom'?: MsoGridBottomProperty<TLength>;
   /**
@@ -4487,7 +4487,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-bottom-count'?: MsoGridBottomCountProperty;
   /**
@@ -4495,7 +4495,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-left'?: MsoGridLeftProperty<TLength>;
   /**
@@ -4503,7 +4503,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-left-count'?: MsoGridLeftCountProperty;
   /**
@@ -4511,7 +4511,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-right'?: MsoGridRightProperty<TLength>;
   /**
@@ -4519,7 +4519,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-right-count'?: MsoGridRightCountProperty;
   /**
@@ -4527,7 +4527,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-top'?: MsoGridTopProperty<TLength>;
   /**
@@ -4535,7 +4535,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-grid-top-count'?: MsoGridTopCountProperty;
   /**
@@ -4543,7 +4543,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`ltr` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-gutter-direction'?: MsoGutterDirectionProperty;
   /**
@@ -4551,7 +4551,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-gutter-margin'?: MsoGutterMarginProperty<TLength>;
   /**
@@ -4559,7 +4559,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`side` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-gutter-position'?: MsoGutterPositionProperty;
   /**
@@ -4567,7 +4567,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-hansi-font-family'?: MsoHansiFontFamilyProperty;
   /**
@@ -4575,7 +4575,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-header'?: MsoHeaderProperty;
   /**
@@ -4583,7 +4583,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-header-data'?: MsoHeaderDataProperty;
   /**
@@ -4591,7 +4591,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-header-id'?: MsoHeaderIdProperty;
   /**
@@ -4599,7 +4599,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-header-margin'?: MsoHeaderMarginProperty<TLength>;
   /**
@@ -4607,7 +4607,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-header-src'?: MsoHeaderSrcProperty;
   /**
@@ -4615,7 +4615,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-height-rule'?: MsoHeightRuleProperty;
   /**
@@ -4623,7 +4623,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-height-source'?: MsoHeightSourceProperty;
   /**
@@ -4631,7 +4631,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-hide'?: MsoHideProperty;
   /**
@@ -4639,7 +4639,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-highlight'?: MsoHighlightProperty;
   /**
@@ -4647,7 +4647,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`left` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-horizontal-page-align'?: MsoHorizontalPageAlignProperty;
   /**
@@ -4655,7 +4655,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-hyphenate'?: MsoHyphenateProperty;
   /**
@@ -4663,7 +4663,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ignore'?: MsoIgnoreProperty;
   /**
@@ -4671,7 +4671,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-kinsoku-overflow'?: MsoKinsokuOverflowProperty;
   /**
@@ -4679,7 +4679,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-layout-grid-align'?: MsoLayoutGridAlignProperty;
   /**
@@ -4687,7 +4687,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-layout-grid-origin'?: MsoLayoutGridOriginProperty<TLength>;
   /**
@@ -4695,7 +4695,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-inherit'?: MsoLevelInheritProperty;
   /**
@@ -4703,7 +4703,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-legacy'?: MsoLevelLegacyProperty;
   /**
@@ -4711,7 +4711,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-legacy-indent'?: MsoLevelLegacyIndentProperty<TLength>;
   /**
@@ -4719,7 +4719,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-legacy-space'?: MsoLevelLegacySpaceProperty<TLength>;
   /**
@@ -4727,7 +4727,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-legal-format'?: MsoLevelLegalFormatProperty;
   /**
@@ -4735,7 +4735,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`arabic` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-number-format'?: MsoLevelNumberFormatProperty;
   /**
@@ -4743,7 +4743,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`left` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-number-position'?: MsoLevelNumberPositionProperty;
   /**
@@ -4751,7 +4751,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`restart` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-numbering'?: MsoLevelNumberingProperty;
   /**
@@ -4759,7 +4759,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-reset-level'?: MsoLevelResetLevelProperty;
   /**
@@ -4767,7 +4767,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`1` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-start-at'?: MsoLevelStartAtProperty;
   /**
@@ -4775,7 +4775,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-style-link'?: MsoLevelStyleLinkProperty;
   /**
@@ -4783,7 +4783,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`tab` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-suffix'?: MsoLevelSuffixProperty;
   /**
@@ -4791,7 +4791,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-tab-stop'?: MsoLevelTabStopProperty<TLength>;
   /**
@@ -4799,7 +4799,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-level-text'?: MsoLevelTextProperty;
   /**
@@ -4807,7 +4807,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-break-override'?: MsoLineBreakOverrideProperty;
   /**
@@ -4815,7 +4815,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-grid'?: MsoLineGridProperty;
   /**
@@ -4823,7 +4823,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-height-rule'?: MsoLineHeightRuleProperty;
   /**
@@ -4831,7 +4831,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-numbers-count-by'?: MsoLineNumbersCountByProperty;
   /**
@@ -4839,7 +4839,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-numbers-distance'?: MsoLineNumbersDistanceProperty<TLength>;
   /**
@@ -4847,7 +4847,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`continuous` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-numbers-restart'?: MsoLineNumbersRestartProperty;
   /**
@@ -4855,7 +4855,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-line-numbers-start'?: MsoLineNumbersStartProperty;
   /**
@@ -4875,7 +4875,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list'?: MsoListProperty;
   /**
@@ -4883,7 +4883,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-change'?: MsoListChangeProperty;
   /**
@@ -4891,7 +4891,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-change-author'?: MsoListChangeAuthorProperty;
   /**
@@ -4899,7 +4899,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-change-time'?: MsoListChangeTimeProperty;
   /**
@@ -4907,7 +4907,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-change-values'?: MsoListChangeValuesProperty;
   /**
@@ -4915,7 +4915,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-id'?: MsoListIdProperty;
   /**
@@ -4923,7 +4923,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-ins'?: MsoListInsProperty;
   /**
@@ -4931,7 +4931,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-ins-author'?: MsoListInsAuthorProperty;
   /**
@@ -4939,7 +4939,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-ins-time'?: MsoListInsTimeProperty;
   /**
@@ -4947,7 +4947,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-name'?: MsoListNameProperty;
   /**
@@ -4955,7 +4955,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-template-ids'?: MsoListTemplateIdsProperty;
   /**
@@ -4963,7 +4963,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`multilevel` |
    *
-   * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-list-type'?: MsoListTypeProperty;
   /**
@@ -4971,7 +4971,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-mirror-margins'?: MsoMirrorMarginsProperty;
   /**
@@ -4979,7 +4979,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-negative-indent-tab'?: MsoNegativeIndentTabProperty;
   /**
@@ -4987,7 +4987,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-number-format'?: MsoNumberFormatProperty;
   /**
@@ -4995,7 +4995,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-level'?: MsoOutlineLevelProperty;
   /**
@@ -5003,7 +5003,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-parent'?: MsoOutlineParentProperty;
   /**
@@ -5011,7 +5011,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`right` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-parent-col'?: MsoOutlineParentColProperty;
   /**
@@ -5019,7 +5019,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`bottom` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-parent-row'?: MsoOutlineParentRowProperty;
   /**
@@ -5027,7 +5027,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`expanded` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-parent-visibility'?: MsoOutlineParentVisibilityProperty;
   /**
@@ -5035,7 +5035,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`userset` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-outline-style'?: MsoOutlineStyleProperty;
   /**
@@ -5049,7 +5049,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-aligned'?: MsoPageBorderAlignedProperty;
   /**
@@ -5057,7 +5057,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-art'?: MsoPageBorderArtProperty;
   /**
@@ -5065,7 +5065,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-bottom-art'?: MsoPageBorderBottomArtProperty;
   /**
@@ -5073,7 +5073,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`all-pages` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-display'?: MsoPageBorderDisplayProperty;
   /**
@@ -5081,7 +5081,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-left-art'?: MsoPageBorderLeftArtProperty;
   /**
@@ -5089,7 +5089,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`edge` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-offset-from'?: MsoPageBorderOffsetFromProperty;
   /**
@@ -5097,7 +5097,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-right-art'?: MsoPageBorderRightArtProperty;
   /**
@@ -5105,7 +5105,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-surround-footer'?: MsoPageBorderSurroundFooterProperty;
   /**
@@ -5113,7 +5113,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-surround-header'?: MsoPageBorderSurroundHeaderProperty;
   /**
@@ -5121,7 +5121,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-top-art'?: MsoPageBorderTopArtProperty;
   /**
@@ -5129,7 +5129,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`in-front` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-border-z-order'?: MsoPageBorderZOrderProperty;
   /**
@@ -5137,7 +5137,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-numbers'?: MsoPageNumbersProperty;
   /**
@@ -5145,7 +5145,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`hyphen` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-numbers-chapter-separator'?: MsoPageNumbersChapterSeparatorProperty;
   /**
@@ -5153,7 +5153,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-numbers-chapter-style'?: MsoPageNumbersChapterStyleProperty;
   /**
@@ -5161,7 +5161,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-numbers-start'?: MsoPageNumbersStartProperty;
   /**
@@ -5169,7 +5169,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`arabic` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-numbers-style'?: MsoPageNumbersStyleProperty;
   /**
@@ -5177,7 +5177,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`portrait` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-orientation'?: MsoPageOrientationProperty;
   /**
@@ -5185,7 +5185,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-page-scale'?: MsoPageScaleProperty;
   /**
@@ -5199,7 +5199,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-paper-source'?: MsoPaperSourceProperty;
   /**
@@ -5207,7 +5207,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-paper-source-first-page'?: MsoPaperSourceFirstPageProperty;
   /**
@@ -5215,7 +5215,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-paper-source-other-pages'?: MsoPaperSourceOtherPagesProperty;
   /**
@@ -5223,7 +5223,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-pattern'?: MsoPatternProperty;
   /**
@@ -5231,7 +5231,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-pattern-color'?: MsoPatternColorProperty;
   /**
@@ -5239,7 +5239,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-pattern-style'?: MsoPatternStyleProperty;
   /**
@@ -5247,7 +5247,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-area'?: MsoPrintAreaProperty;
   /**
@@ -5255,7 +5255,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`yes` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-color'?: MsoPrintColorProperty;
   /**
@@ -5263,7 +5263,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-gridlines'?: MsoPrintGridlinesProperty;
   /**
@@ -5271,7 +5271,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-headings'?: MsoPrintHeadingsProperty;
   /**
@@ -5279,7 +5279,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-resolution'?: MsoPrintResolutionProperty;
   /**
@@ -5287,7 +5287,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`over-then-down` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-sheet-order'?: MsoPrintSheetOrderProperty;
   /**
@@ -5295,7 +5295,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-title-column'?: MsoPrintTitleColumnProperty;
   /**
@@ -5303,7 +5303,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-print-title-row'?: MsoPrintTitleRowProperty;
   /**
@@ -5311,7 +5311,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-prop-change'?: MsoPropChangeProperty;
   /**
@@ -5319,7 +5319,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-prop-change-author'?: MsoPropChangeAuthorProperty;
   /**
@@ -5327,7 +5327,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-prop-change-time'?: MsoPropChangeTimeProperty;
   /**
@@ -5335,7 +5335,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`no` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-protection'?: MsoProtectionProperty;
   /**
@@ -5343,7 +5343,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-rotate'?: MsoRotateProperty;
   /**
@@ -5351,7 +5351,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-row-margin-left'?: MsoRowMarginLeftProperty<TLength>;
   /**
@@ -5359,7 +5359,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-row-margin-right'?: MsoRowMarginRightProperty<TLength>;
   /**
@@ -5367,7 +5367,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ruby-merge'?: MsoRubyMergeProperty;
   /**
@@ -5375,7 +5375,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ruby-visibility'?: MsoRubyVisibilityProperty;
   /**
@@ -5395,7 +5395,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-shading'?: MsoShadingProperty;
   /**
@@ -5409,7 +5409,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-space-above'?: MsoSpaceAboveProperty;
   /**
@@ -5417,7 +5417,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-space-below'?: MsoSpaceBelowProperty;
   /**
@@ -5425,7 +5425,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-spacerun'?: MsoSpacerunProperty;
   /**
@@ -5433,7 +5433,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-special-character'?: MsoSpecialCharacterProperty;
   /**
@@ -5483,7 +5483,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Master Documents`](https://stigmortenmyre.no/mso/html/word/wdconmasterdocuments.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-subdocument'?: MsoSubdocumentProperty;
   /**
@@ -5497,7 +5497,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-tab-count'?: MsoTabCountProperty;
   /**
@@ -5505,7 +5505,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`margin` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-anchor-horizontal'?: MsoTableAnchorHorizontalProperty;
   /**
@@ -5513,7 +5513,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`margin` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-anchor-vertical'?: MsoTableAnchorVerticalProperty;
   /**
@@ -5521,7 +5521,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-bspace'?: MsoTableBspaceProperty<TLength>;
   /**
@@ -5529,7 +5529,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-del-author'?: MsoTableDelAuthorProperty;
   /**
@@ -5537,7 +5537,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-del-time'?: MsoTableDelTimeProperty;
   /**
@@ -5545,7 +5545,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-deleted'?: MsoTableDeletedProperty;
   /**
@@ -5553,7 +5553,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`normal` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-dir'?: MsoTableDirProperty;
   /**
@@ -5561,7 +5561,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-ins-author'?: MsoTableInsAuthorProperty;
   /**
@@ -5569,7 +5569,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-ins-time'?: MsoTableInsTimeProperty;
   /**
@@ -5577,7 +5577,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-inserted'?: MsoTableInsertedProperty;
   /**
@@ -5585,7 +5585,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-left'?: MsoTableLeftProperty<TLength>;
   /**
@@ -5593,7 +5593,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-lspace'?: MsoTableLspaceProperty<TLength>;
   /**
@@ -5607,7 +5607,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-prop-author'?: MsoTablePropAuthorProperty;
   /**
@@ -5615,7 +5615,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-prop-change'?: MsoTablePropChangeProperty;
   /**
@@ -5623,7 +5623,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-prop-time'?: MsoTablePropTimeProperty;
   /**
@@ -5631,7 +5631,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-rspace'?: MsoTableRspaceProperty<TLength>;
   /**
@@ -5639,7 +5639,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-top'?: MsoTableTopProperty<TLength>;
   /**
@@ -5647,7 +5647,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-tspace'?: MsoTableTspaceProperty<TLength>;
   /**
@@ -5655,7 +5655,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-table-wrap'?: MsoTableWrapProperty;
   /**
@@ -5663,7 +5663,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-animation'?: MsoTextAnimationProperty;
   /**
@@ -5671,7 +5671,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`none` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-combine-brackets'?: MsoTextCombineBracketsProperty;
   /**
@@ -5679,7 +5679,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-combine-id'?: MsoTextCombineIdProperty;
   /**
@@ -5687,7 +5687,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-control'?: MsoTextControlProperty;
   /**
@@ -5695,7 +5695,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-fit-id'?: MsoTextFitIdProperty;
   /**
@@ -5703,7 +5703,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`horizontal` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-orientation'?: MsoTextOrientationProperty;
   /**
@@ -5711,7 +5711,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-text-raise'?: MsoTextRaiseProperty<TLength>;
   /**
@@ -5719,7 +5719,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-title-page'?: MsoTitlePageProperty;
   /**
@@ -5727,7 +5727,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-tny-compress'?: MsoTnyCompressProperty;
   /**
@@ -5735,7 +5735,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-unsynced'?: MsoUnsyncedProperty;
   /**
@@ -5749,7 +5749,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`top` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Frames`](TODO), [`Frames`](TODO)
    */
   'mso-vertical-page-align'?: MsoVerticalPageAlignProperty;
   /**
@@ -5757,7 +5757,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-width-source'?: MsoWidthSourceProperty;
   /**
@@ -5771,7 +5771,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`1` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-xlrowspan'?: MsoXlrowspanProperty;
   /**
@@ -5779,7 +5779,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`no` |
    *
-   * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-zero-height'?: MsoZeroHeightProperty;
 }
@@ -5790,7 +5790,7 @@ export interface AnsiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`medium` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ansi-font-size'?: MsoAnsiFontSizeProperty<TLength>;
   /**
@@ -5798,7 +5798,7 @@ export interface AnsiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ansi-font-style'?: MsoAnsiFontStyleProperty;
   /**
@@ -5806,7 +5806,7 @@ export interface AnsiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ansi-font-weight'?: MsoAnsiFontWeightProperty;
   /**
@@ -5814,7 +5814,7 @@ export interface AnsiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ansi-language'?: MsoAnsiLanguageProperty;
 }
@@ -5825,7 +5825,7 @@ export interface AsciiPropertiesHyphen {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-ascii-font-family'?: MsoAsciiFontFamilyProperty;
 }
@@ -5836,7 +5836,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`off` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-flag'?: MsoBidiFlagProperty;
   /**
@@ -5844,7 +5844,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-font-family'?: MsoBidiFontFamilyProperty;
   /**
@@ -5852,7 +5852,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`medium` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-font-size'?: MsoBidiFontSizeProperty<TLength>;
   /**
@@ -5860,7 +5860,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-font-style'?: MsoBidiFontStyleProperty;
   /**
@@ -5868,7 +5868,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-font-weight'?: MsoBidiFontWeightProperty;
   /**
@@ -5876,7 +5876,7 @@ export interface BidiPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-bidi-language'?: MsoBidiLanguageProperty;
 }
@@ -5887,7 +5887,7 @@ export interface FareastPropertiesHyphen {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-fareast-font-family'?: MsoFareastFontFamilyProperty;
   /**
@@ -5895,7 +5895,7 @@ export interface FareastPropertiesHyphen {
    * | --------- | -- | ------------- |
    * `unknown` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-fareast-hint'?: MsoFareastHintProperty;
   /**
@@ -5903,7 +5903,7 @@ export interface FareastPropertiesHyphen {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`n/a` |
    *
-   * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
+   * @see [`Frames`](TODO)
    */
   'mso-fareast-language'?: MsoFareastLanguageProperty;
 }

@@ -1,5 +1,5 @@
 /* eslint-disable import/no-mutable-exports */
-import { properties as rawProperties } from '@email-types/data';
+import { properties as rawProperties } from '@email-types/data/mso';
 import { createComment } from './comment';
 import { AnyDataType, Category, DataType } from './constants';
 import { parse } from './parser';
@@ -16,12 +16,12 @@ export interface Property {
   comment?: string | null;
 }
 
-export let getProperties = (): Property[] => {
-  const entries = Object.entries({
-    ...rawProperties,
-    ...msPatches,
-  }).sort();
+const entries = Object.entries({
+  ...rawProperties,
+  ...msPatches,
+}).sort();
 
+export let getProperties = (): Property[] => {
   const properties = entries.map(([key, value]) => {
     const types = parse(value.syntax);
     const property: Property = {
