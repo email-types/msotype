@@ -1,10 +1,11 @@
 import { EOL } from 'os';
-import { MSO, groups } from '@email-types/data';
+import { Property as MSOProperty } from '@email-types/data/mso';
+import { groupLinks } from '../patches/links';
 import { log } from '../utils';
 
 export const createComment = (
   key: string,
-  property: MSO.Property,
+  property: MSOProperty,
 ): string | null => {
   const rows: string[] = [];
 
@@ -17,7 +18,7 @@ export const createComment = (
 
   const tableRow: string[] = [];
 
-  if (property.inherited) {
+  if (typeof property.inherited === 'boolean') {
     tableRow.push(`\`${property.inherited}\` | &vert; |`);
   } else {
     tableRow.push('`unknown` | &vert; |');
@@ -32,18 +33,23 @@ export const createComment = (
   rows.push(tableRow.join(''), '');
 
   if (property.groups && property.groups.length > 0) {
-    const links = property.groups
-      .map((group) => {
-        const name = group.toLowerCase().replace(/\s+/g, '-');
-        const data = groups[(name as unknown) as keyof typeof groups];
+    const links: string[] = [];
+    property.groups.forEach((group) => {
+      const name = group.toLowerCase().replace(/\s+/g, '-');
+      const data = groupLinks[name];
 
-        if (data) {
-          return `[\`${data.title}\`](${data.url})`;
-        }
-        log.warn(`Could not find '${group}' group for ${key}`);
-        return undefined;
-      })
-      .filter(Boolean);
+      if (data) {
+        Object.keys(data).forEach((title) => {
+          links.push(`[\`${title}\`](${data[title]})`);
+        });
+        return;
+      }
+
+      log.warn(`Could not find '${group}' group for ${key}`);
+      return undefined;
+    });
+
+    links.filter(Boolean);
 
     if (links.length > 0) {
       rows.push(`@see ${links.join(', ')}`);

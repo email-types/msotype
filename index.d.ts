@@ -4,7 +4,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -14,9 +14,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomAlt?: MsoBorderBottomAltProperty<TLength>;
   /**
@@ -24,9 +24,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomColorAlt?: MsoBorderBottomColorAltProperty;
   /**
@@ -34,9 +34,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomStyleAlt?: MsoBorderBottomStyleAltProperty;
   /**
@@ -44,9 +44,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBottomWidthAlt?: MsoBorderBottomWidthAltProperty<TLength>;
   /**
@@ -54,9 +54,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderColorAlt?: MsoBorderColorAltProperty;
   /**
@@ -64,9 +64,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftAlt?: MsoBorderLeftAltProperty<TLength>;
   /**
@@ -74,9 +74,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftColorAlt?: MsoBorderLeftColorAltProperty;
   /**
@@ -84,9 +84,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftStyleAlt?: MsoBorderLeftStyleAltProperty;
   /**
@@ -94,9 +94,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderLeftWidthAlt?: MsoBorderLeftWidthAltProperty<TLength>;
   /**
@@ -104,9 +104,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightAlt?: MsoBorderRightAltProperty<TLength>;
   /**
@@ -114,9 +114,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightColorAlt?: MsoBorderRightColorAltProperty;
   /**
@@ -124,9 +124,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightStyleAlt?: MsoBorderRightStyleAltProperty;
   /**
@@ -134,9 +134,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderRightWidthAlt?: MsoBorderRightWidthAltProperty<TLength>;
   /**
@@ -144,9 +144,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderStyleAlt?: MsoBorderStyleAltProperty;
   /**
@@ -154,9 +154,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopAlt?: MsoBorderTopAltProperty<TLength>;
   /**
@@ -164,9 +164,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopColorAlt?: MsoBorderTopColorAltProperty;
   /**
@@ -174,9 +174,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopStyleAlt?: MsoBorderTopStyleAltProperty;
   /**
@@ -184,9 +184,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderTopWidthAlt?: MsoBorderTopWidthAltProperty<TLength>;
   /**
@@ -194,9 +194,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderWidthAlt?: MsoBorderWidthAltProperty<TLength>;
   /**
@@ -214,7 +214,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontAlt?: MsoFontAltProperty;
   /**
@@ -222,7 +222,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -232,7 +232,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -244,7 +244,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm)
    */
   msoLineHeightAlt?: MsoLineHeightAltProperty<TLength>;
   /**
@@ -252,9 +252,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
   msoMarginBottomAlt?: MsoMarginBottomAltProperty<TLength>;
   /**
@@ -262,7 +262,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoMarginLeftAlt?: MsoMarginLeftAltProperty;
   /**
@@ -270,9 +270,9 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
   msoMarginTopAlt?: MsoMarginTopAltProperty<TLength>;
   /**
@@ -280,7 +280,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -290,7 +290,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -300,7 +300,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -310,7 +310,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -320,7 +320,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -340,7 +340,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoTextIndentAlt?: MsoTextIndentAltProperty<TLength>;
   /**
@@ -348,7 +348,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -358,7 +358,7 @@ export interface AlternativeProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -371,13 +371,13 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msInterpolationMode?: MsInterpolationModeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -385,7 +385,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -393,13 +393,13 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoBaselinePosition?: MsoBaselinePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Hyperlinks`](https://stigmortenmyre.no/mso/html/concepts/ofconhyperlinks.htm)
    */
@@ -407,39 +407,39 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetween?: MsoBorderBetweenProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenColor?: MsoBorderBetweenColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenStyle?: MsoBorderBetweenStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderBetweenWidth?: MsoBorderBetweenWidthProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -447,15 +447,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`box` |
+   * `false` | &vert; |`box` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderEffect?: MsoBorderEffectProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -463,7 +463,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -471,9 +471,9 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoBorderShadow?: MsoBorderShadowProperty;
   /**
@@ -487,7 +487,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -495,15 +495,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoBreakType?: MsoBreakTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -511,7 +511,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -519,7 +519,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -527,7 +527,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -535,7 +535,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -543,7 +543,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -551,7 +551,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -559,7 +559,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -567,7 +567,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
    */
@@ -575,7 +575,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -583,7 +583,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -591,7 +591,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -599,7 +599,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -607,7 +607,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -615,7 +615,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -623,7 +623,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -631,13 +631,13 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoColorIndex?: MsoColorIndexProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -645,57 +645,57 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoColumnBreakBefore?: MsoColumnBreakBeforeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoColumnSeparator?: MsoColumnSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoColumns?: MsoColumnsProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoCommentAuthor?: MsoCommentAuthorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoCommentContinuation?: MsoCommentContinuationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoCommentId?: MsoCommentIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoCommentReference?: MsoCommentReferenceProperty;
   /**
@@ -709,7 +709,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -717,7 +717,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -725,7 +725,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -733,7 +733,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -741,7 +741,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -749,7 +749,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -757,7 +757,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -765,7 +765,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -773,7 +773,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -781,7 +781,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -789,7 +789,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -797,7 +797,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -805,7 +805,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -813,7 +813,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -821,15 +821,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoElement?: MsoElementProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -837,7 +837,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -845,7 +845,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -853,7 +853,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -861,7 +861,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -869,7 +869,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -877,7 +877,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -885,7 +885,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -893,7 +893,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -901,7 +901,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -909,7 +909,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -917,191 +917,191 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationNotice?: MsoEndnoteContinuationNoticeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationNoticeId?: MsoEndnoteContinuationNoticeIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationNoticeSrc?: MsoEndnoteContinuationNoticeSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationSeparator?: MsoEndnoteContinuationSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationSeparatorId?: MsoEndnoteContinuationSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteContinuationSeparatorSrc?: MsoEndnoteContinuationSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`normal` |
+   * `false` | &vert; |`normal` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteDisplay?: MsoEndnoteDisplayProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteId?: MsoEndnoteIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteNumbering?: MsoEndnoteNumberingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteNumberingRestart?: MsoEndnoteNumberingRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteNumberingStart?: MsoEndnoteNumberingStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteNumberingStyle?: MsoEndnoteNumberingStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`end-of-document` |
+   * `false` | &vert; |`end-of-document` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnotePosition?: MsoEndnotePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteSeparator?: MsoEndnoteSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteSeparatorId?: MsoEndnoteSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEndnoteSeparatorSrc?: MsoEndnoteSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenFooter?: MsoEvenFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenFooterId?: MsoEvenFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenFooterSrc?: MsoEvenFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenHeader?: MsoEvenHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenHeaderId?: MsoEvenHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoEvenHeaderSrc?: MsoEvenHeaderSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFacingPages?: MsoFacingPagesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1109,7 +1109,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1117,7 +1117,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1125,7 +1125,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1133,7 +1133,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
    */
@@ -1141,7 +1141,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
    */
@@ -1149,55 +1149,55 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFillsColor?: MsoFillsColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstFooter?: MsoFirstFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstFooterId?: MsoFirstFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstFooterSrc?: MsoFirstFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstHeader?: MsoFirstHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstHeaderId?: MsoFirstHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFirstHeaderSrc?: MsoFirstHeaderSrcProperty;
   /**
@@ -1211,13 +1211,13 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`truetype` |
+   * `false` | &vert; |`truetype` |
    */
   msoFontFormat?: MsoFontFormatProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontInfo?: MsoFontInfoProperty;
   /**
@@ -1235,7 +1235,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1243,61 +1243,61 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    */
   msoFontPitch?: MsoFontPitchProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignature?: MsoFontSignatureProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureCsbOne?: MsoFontSignatureCsbOneProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureCsbTwo?: MsoFontSignatureCsbTwoProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureUsbFour?: MsoFontSignatureUsbFourProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureUsbOne?: MsoFontSignatureUsbOneProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureUsbThree?: MsoFontSignatureUsbThreeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSignatureUsbTwo?: MsoFontSignatureUsbTwoProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoFontSrc?: MsoFontSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -1305,167 +1305,167 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFooter?: MsoFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFooterData?: MsoFooterDataProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFooterId?: MsoFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFooterMargin?: MsoFooterMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFooterSrc?: MsoFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationNotice?: MsoFootnoteContinuationNoticeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationNoticeId?: MsoFootnoteContinuationNoticeIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationNoticeSrc?: MsoFootnoteContinuationNoticeSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationSeparator?: MsoFootnoteContinuationSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationSeparatorId?: MsoFootnoteContinuationSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteContinuationSeparatorSrc?: MsoFootnoteContinuationSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteId?: MsoFootnoteIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteNumbering?: MsoFootnoteNumberingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteNumberingRestart?: MsoFootnoteNumberingRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteNumberingStart?: MsoFootnoteNumberingStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteNumberingStyle?: MsoFootnoteNumberingStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`beneath-text` |
+   * `false` | &vert; |`beneath-text` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnotePosition?: MsoFootnotePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteSeparator?: MsoFootnoteSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteSeparatorId?: MsoFootnoteSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFootnoteSeparatorSrc?: MsoFootnoteSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoForeground?: MsoForegroundProperty;
   /**
@@ -1473,7 +1473,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoFormsProtection?: MsoFormsProtectionProperty;
   /**
@@ -1485,7 +1485,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1493,7 +1493,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1501,7 +1501,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1509,7 +1509,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1517,7 +1517,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1525,7 +1525,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1533,7 +1533,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1541,7 +1541,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1549,7 +1549,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`ltr` |
+   * `false` | &vert; |`ltr` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1557,15 +1557,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoGutterMargin?: MsoGutterMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`side` |
+   * `false` | &vert; |`side` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1581,41 +1581,41 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHeader?: MsoHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHeaderData?: MsoHeaderDataProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHeaderId?: MsoHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHeaderMargin?: MsoHeaderMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHeaderSrc?: MsoHeaderSrcProperty;
   /**
@@ -1645,7 +1645,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -1653,15 +1653,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`left` |
+   * `false` | &vert; |`left` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoHorizontalPageAlign?: MsoHorizontalPageAlignProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -1669,7 +1669,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
    */
@@ -1677,7 +1677,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1685,7 +1685,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1693,7 +1693,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1813,7 +1813,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1821,7 +1821,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -1829,53 +1829,53 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoLineHeightRule?: MsoLineHeightRuleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoLineNumbersCountBy?: MsoLineNumbersCountByProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoLineNumbersDistance?: MsoLineNumbersDistanceProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`continuous` |
+   * `false` | &vert; |`continuous` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoLineNumbersRestart?: MsoLineNumbersRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoLineNumbersStart?: MsoLineNumbersStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoLineSpacing?: MsoLineSpacingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`linked` |
+   * `false` | &vert; |`linked` |
    */
   msoLinkedFrame?: MsoLinkedFrameProperty;
   /**
@@ -1889,7 +1889,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1897,7 +1897,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1905,7 +1905,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1913,7 +1913,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1929,7 +1929,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1937,7 +1937,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1945,7 +1945,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -1977,15 +1977,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoMirrorMargins?: MsoMirrorMarginsProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -1993,7 +1993,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -2001,49 +2001,49 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineLevel?: MsoOutlineLevelProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineParent?: MsoOutlineParentProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`right` |
+   * `false` | &vert; |`right` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineParentCol?: MsoOutlineParentColProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`bottom` |
+   * `false` | &vert; |`bottom` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineParentRow?: MsoOutlineParentRowProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`expanded` |
+   * `false` | &vert; |`expanded` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineParentVisibility?: MsoOutlineParentVisibilityProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`userset` |
+   * `false` | &vert; |`userset` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoOutlineStyle?: MsoOutlineStyleProperty;
   /**
@@ -2055,9 +2055,9 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderAligned?: MsoPageBorderAlignedProperty;
   /**
@@ -2065,171 +2065,171 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderArt?: MsoPageBorderArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderBottomArt?: MsoPageBorderBottomArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`all-pages` |
+   * `false` | &vert; |`all-pages` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderDisplay?: MsoPageBorderDisplayProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderLeftArt?: MsoPageBorderLeftArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`edge` |
+   * `false` | &vert; |`edge` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderOffsetFrom?: MsoPageBorderOffsetFromProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderRightArt?: MsoPageBorderRightArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderSurroundFooter?: MsoPageBorderSurroundFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderSurroundHeader?: MsoPageBorderSurroundHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderTopArt?: MsoPageBorderTopArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`in-front` |
+   * `false` | &vert; |`in-front` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageBorderZOrder?: MsoPageBorderZOrderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageNumbers?: MsoPageNumbersProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`hyphen` |
+   * `false` | &vert; |`hyphen` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageNumbersChapterSeparator?: MsoPageNumbersChapterSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageNumbersChapterStyle?: MsoPageNumbersChapterStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageNumbersStart?: MsoPageNumbersStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageNumbersStyle?: MsoPageNumbersStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`portrait` |
+   * `false` | &vert; |`portrait` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageOrientation?: MsoPageOrientationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPageScale?: MsoPageScaleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    */
   msoPagination?: MsoPaginationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPaperSource?: MsoPaperSourceProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPaperSourceFirstPage?: MsoPaperSourceFirstPageProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPaperSourceOtherPages?: MsoPaperSourceOtherPagesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -2237,7 +2237,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -2245,7 +2245,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -2253,71 +2253,71 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintArea?: MsoPrintAreaProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintColor?: MsoPrintColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintGridlines?: MsoPrintGridlinesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintHeadings?: MsoPrintHeadingsProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintResolution?: MsoPrintResolutionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`over-then-down` |
+   * `false` | &vert; |`over-then-down` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintSheetOrder?: MsoPrintSheetOrderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintTitleColumn?: MsoPrintTitleColumnProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoPrintTitleRow?: MsoPrintTitleRowProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2325,7 +2325,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2333,7 +2333,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2349,7 +2349,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2381,7 +2381,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2389,33 +2389,33 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoSchemeFillColor?: MsoSchemeFillColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoSchemeShadowColor?: MsoSchemeShadowColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   msoShading?: MsoShadingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoShadowColor?: MsoShadowColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2423,7 +2423,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2431,7 +2431,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -2439,57 +2439,57 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoSpecialCharacter?: MsoSpecialCharacterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoSpecialFormat?: MsoSpecialFormatProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleId?: MsoStyleIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleName?: MsoStyleNameProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleNext?: MsoStyleNextProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleParent?: MsoStyleParentProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleType?: MsoStyleTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoStyleUpdate?: MsoStyleUpdateProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Master Documents`](https://stigmortenmyre.no/mso/html/word/wdconmasterdocuments.htm)
    */
@@ -2503,7 +2503,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -2519,7 +2519,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -2527,7 +2527,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -2535,7 +2535,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2543,7 +2543,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2551,7 +2551,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2559,7 +2559,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`normal` |
+   * `false` | &vert; |`normal` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2567,7 +2567,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2575,7 +2575,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2583,7 +2583,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2613,7 +2613,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2621,7 +2621,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2629,7 +2629,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -2645,7 +2645,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -2677,7 +2677,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2685,7 +2685,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2693,7 +2693,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -2701,7 +2701,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2709,7 +2709,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`horizontal` |
+   * `false` | &vert; |`horizontal` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2717,7 +2717,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -2725,15 +2725,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoTitlePage?: MsoTitlePageProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2741,7 +2741,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2749,15 +2749,15 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`baseline` |
+   * `false` | &vert; |`baseline` |
    */
   msoVerticalAlignSpecial?: MsoVerticalAlignSpecialProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`top` |
+   * `false` | &vert; |`top` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   msoVerticalPageAlign?: MsoVerticalPageAlignProperty;
   /**
@@ -2771,13 +2771,13 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoWordWrap?: MsoWordWrapProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2785,7 +2785,7 @@ export interface StandardProperties<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -2901,7 +2901,7 @@ export interface FareastProperties {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -2920,61 +2920,61 @@ export interface PanoseProperties {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseArmStyle?: MsoPanoseArmStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseContrast?: MsoPanoseContrastProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseFamilyType?: MsoPanoseFamilyTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseLetterform?: MsoPanoseLetterformProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseMidline?: MsoPanoseMidlineProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseProportion?: MsoPanoseProportionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseSerifStyle?: MsoPanoseSerifStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseStrokeVariation?: MsoPanoseStrokeVariationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseWeight?: MsoPanoseWeightProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   msoPanoseXHeight?: MsoPanoseXHeightProperty;
 }
@@ -2996,7 +2996,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3006,9 +3006,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-alt'?: MsoBorderBottomAltProperty<TLength>;
   /**
@@ -3016,9 +3016,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-color-alt'?: MsoBorderBottomColorAltProperty;
   /**
@@ -3026,9 +3026,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-style-alt'?: MsoBorderBottomStyleAltProperty;
   /**
@@ -3036,9 +3036,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-bottom-width-alt'?: MsoBorderBottomWidthAltProperty<TLength>;
   /**
@@ -3046,9 +3046,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-color-alt'?: MsoBorderColorAltProperty;
   /**
@@ -3056,9 +3056,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-alt'?: MsoBorderLeftAltProperty<TLength>;
   /**
@@ -3066,9 +3066,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-color-alt'?: MsoBorderLeftColorAltProperty;
   /**
@@ -3076,9 +3076,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-style-alt'?: MsoBorderLeftStyleAltProperty;
   /**
@@ -3086,9 +3086,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-left-width-alt'?: MsoBorderLeftWidthAltProperty<TLength>;
   /**
@@ -3096,9 +3096,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-alt'?: MsoBorderRightAltProperty<TLength>;
   /**
@@ -3106,9 +3106,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-color-alt'?: MsoBorderRightColorAltProperty;
   /**
@@ -3116,9 +3116,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-style-alt'?: MsoBorderRightStyleAltProperty;
   /**
@@ -3126,9 +3126,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-right-width-alt'?: MsoBorderRightWidthAltProperty<TLength>;
   /**
@@ -3136,9 +3136,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-style-alt'?: MsoBorderStyleAltProperty;
   /**
@@ -3146,9 +3146,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-alt'?: MsoBorderTopAltProperty<TLength>;
   /**
@@ -3156,9 +3156,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-color-alt'?: MsoBorderTopColorAltProperty;
   /**
@@ -3166,9 +3166,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-style-alt'?: MsoBorderTopStyleAltProperty;
   /**
@@ -3176,9 +3176,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-top-width-alt'?: MsoBorderTopWidthAltProperty<TLength>;
   /**
@@ -3186,9 +3186,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-width-alt'?: MsoBorderWidthAltProperty<TLength>;
   /**
@@ -3206,7 +3206,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-alt'?: MsoFontAltProperty;
   /**
@@ -3214,7 +3214,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -3224,7 +3224,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3236,7 +3236,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`normal` |
    *
-   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm)
    */
   'mso-line-height-alt'?: MsoLineHeightAltProperty<TLength>;
   /**
@@ -3244,9 +3244,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
   'mso-margin-bottom-alt'?: MsoMarginBottomAltProperty<TLength>;
   /**
@@ -3254,7 +3254,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-margin-left-alt'?: MsoMarginLeftAltProperty;
   /**
@@ -3262,9 +3262,9 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
+   * @see [`Paragraphs`](https://stigmortenmyre.no/mso/html/concepts/ofconparagraphs.htm), [`Paragraph Spacing`](https://stigmortenmyre.no/mso/html/word/wdconparagraphspacing.htm), [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
   'mso-margin-top-alt'?: MsoMarginTopAltProperty<TLength>;
   /**
@@ -3272,7 +3272,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3282,7 +3282,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3292,7 +3292,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3302,7 +3302,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3312,7 +3312,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3332,7 +3332,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-text-indent-alt'?: MsoTextIndentAltProperty<TLength>;
   /**
@@ -3340,7 +3340,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3350,7 +3350,7 @@ export interface AlternativePropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -3363,13 +3363,13 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    *
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'ms-interpolation-mode'?: MsInterpolationModeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3377,7 +3377,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3385,13 +3385,13 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-baseline-position'?: MsoBaselinePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Hyperlinks`](https://stigmortenmyre.no/mso/html/concepts/ofconhyperlinks.htm)
    */
@@ -3399,39 +3399,39 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between'?: MsoBorderBetweenProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-color'?: MsoBorderBetweenColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-style'?: MsoBorderBetweenStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-between-width'?: MsoBorderBetweenWidthProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3439,15 +3439,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`box` |
+   * `false` | &vert; |`box` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-effect'?: MsoBorderEffectProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3455,7 +3455,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3463,9 +3463,9 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-border-shadow'?: MsoBorderShadowProperty;
   /**
@@ -3479,7 +3479,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3487,15 +3487,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-break-type'?: MsoBreakTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3503,7 +3503,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3511,7 +3511,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3519,7 +3519,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3527,7 +3527,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3535,7 +3535,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3543,7 +3543,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3551,7 +3551,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Animations`](https://stigmortenmyre.no/mso/html/powerpoint/ppconanimations.htm)
    */
@@ -3559,7 +3559,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Bullets and Numbered Lists`](https://stigmortenmyre.no/mso/html/concepts/ofconbullets.htm)
    */
@@ -3567,7 +3567,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3575,7 +3575,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3583,7 +3583,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3591,7 +3591,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3599,7 +3599,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3607,7 +3607,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3615,7 +3615,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -3623,13 +3623,13 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-color-index'?: MsoColorIndexProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3637,57 +3637,57 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-column-break-before'?: MsoColumnBreakBeforeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-column-separator'?: MsoColumnSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-columns'?: MsoColumnsProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-comment-author'?: MsoCommentAuthorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-comment-continuation'?: MsoCommentContinuationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-comment-id'?: MsoCommentIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-comment-reference'?: MsoCommentReferenceProperty;
   /**
@@ -3701,7 +3701,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -3709,7 +3709,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -3717,7 +3717,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3725,7 +3725,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3733,7 +3733,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3741,7 +3741,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3749,7 +3749,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3757,7 +3757,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3765,7 +3765,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3773,7 +3773,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3781,7 +3781,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3789,7 +3789,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`medium` |
+   * `false` | &vert; |`medium` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -3797,7 +3797,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3805,7 +3805,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -3813,15 +3813,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-element'?: MsoElementProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3829,7 +3829,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3837,7 +3837,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3845,7 +3845,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3853,7 +3853,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3861,7 +3861,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3869,7 +3869,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3877,7 +3877,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3885,7 +3885,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3893,7 +3893,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3901,7 +3901,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Frames and Drop Caps`](https://stigmortenmyre.no/mso/html/word/wdconframesanddropcaps.htm)
    */
@@ -3909,191 +3909,191 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-notice'?: MsoEndnoteContinuationNoticeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-notice-id'?: MsoEndnoteContinuationNoticeIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-notice-src'?: MsoEndnoteContinuationNoticeSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-separator'?: MsoEndnoteContinuationSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-separator-id'?: MsoEndnoteContinuationSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-continuation-separator-src'?: MsoEndnoteContinuationSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`normal` |
+   * `false` | &vert; |`normal` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-display'?: MsoEndnoteDisplayProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-id'?: MsoEndnoteIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-numbering'?: MsoEndnoteNumberingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-numbering-restart'?: MsoEndnoteNumberingRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-numbering-start'?: MsoEndnoteNumberingStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-numbering-style'?: MsoEndnoteNumberingStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`end-of-document` |
+   * `false` | &vert; |`end-of-document` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-position'?: MsoEndnotePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-separator'?: MsoEndnoteSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-separator-id'?: MsoEndnoteSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-endnote-separator-src'?: MsoEndnoteSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-footer'?: MsoEvenFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-footer-id'?: MsoEvenFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-footer-src'?: MsoEvenFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-header'?: MsoEvenHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-header-id'?: MsoEvenHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-even-header-src'?: MsoEvenHeaderSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-facing-pages'?: MsoFacingPagesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4101,7 +4101,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4109,7 +4109,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4117,7 +4117,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4125,7 +4125,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
    */
@@ -4133,7 +4133,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Fields`](https://stigmortenmyre.no/mso/html/word/wdconfields.htm)
    */
@@ -4141,55 +4141,55 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-fills-color'?: MsoFillsColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-footer'?: MsoFirstFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-footer-id'?: MsoFirstFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-footer-src'?: MsoFirstFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-header'?: MsoFirstHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-header-id'?: MsoFirstHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-first-header-src'?: MsoFirstHeaderSrcProperty;
   /**
@@ -4203,13 +4203,13 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`truetype` |
+   * `false` | &vert; |`truetype` |
    */
   'mso-font-format'?: MsoFontFormatProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-info'?: MsoFontInfoProperty;
   /**
@@ -4227,7 +4227,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4235,61 +4235,61 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    */
   'mso-font-pitch'?: MsoFontPitchProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature'?: MsoFontSignatureProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-csb-one'?: MsoFontSignatureCsbOneProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-csb-two'?: MsoFontSignatureCsbTwoProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-usb-four'?: MsoFontSignatureUsbFourProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-usb-one'?: MsoFontSignatureUsbOneProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-usb-three'?: MsoFontSignatureUsbThreeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-signature-usb-two'?: MsoFontSignatureUsbTwoProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-font-src'?: MsoFontSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -4297,167 +4297,167 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footer'?: MsoFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footer-data'?: MsoFooterDataProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footer-id'?: MsoFooterIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footer-margin'?: MsoFooterMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footer-src'?: MsoFooterSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-notice'?: MsoFootnoteContinuationNoticeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-notice-id'?: MsoFootnoteContinuationNoticeIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-notice-src'?: MsoFootnoteContinuationNoticeSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-separator'?: MsoFootnoteContinuationSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-separator-id'?: MsoFootnoteContinuationSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-continuation-separator-src'?: MsoFootnoteContinuationSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-id'?: MsoFootnoteIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-numbering'?: MsoFootnoteNumberingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-numbering-restart'?: MsoFootnoteNumberingRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-numbering-start'?: MsoFootnoteNumberingStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-numbering-style'?: MsoFootnoteNumberingStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`beneath-text` |
+   * `false` | &vert; |`beneath-text` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-position'?: MsoFootnotePositionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-separator'?: MsoFootnoteSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-separator-id'?: MsoFootnoteSeparatorIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-footnote-separator-src'?: MsoFootnoteSeparatorSrcProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-foreground'?: MsoForegroundProperty;
   /**
@@ -4465,7 +4465,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-forms-protection'?: MsoFormsProtectionProperty;
   /**
@@ -4477,7 +4477,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4485,7 +4485,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4493,7 +4493,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4501,7 +4501,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4509,7 +4509,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4517,7 +4517,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4525,7 +4525,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4533,7 +4533,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4541,7 +4541,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`ltr` |
+   * `false` | &vert; |`ltr` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4549,15 +4549,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-gutter-margin'?: MsoGutterMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`side` |
+   * `false` | &vert; |`side` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4573,41 +4573,41 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-header'?: MsoHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-header-data'?: MsoHeaderDataProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-header-id'?: MsoHeaderIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-header-margin'?: MsoHeaderMarginProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-header-src'?: MsoHeaderSrcProperty;
   /**
@@ -4637,7 +4637,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -4645,15 +4645,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`left` |
+   * `false` | &vert; |`left` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-horizontal-page-align'?: MsoHorizontalPageAlignProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -4661,7 +4661,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Saving and Opening Html Files`](https://stigmortenmyre.no/mso/html/excel/xlconloadinghtml.htm)
    */
@@ -4669,7 +4669,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4677,7 +4677,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4685,7 +4685,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4805,7 +4805,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4813,7 +4813,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -4821,53 +4821,53 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-line-height-rule'?: MsoLineHeightRuleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-line-numbers-count-by'?: MsoLineNumbersCountByProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-line-numbers-distance'?: MsoLineNumbersDistanceProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`continuous` |
+   * `false` | &vert; |`continuous` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-line-numbers-restart'?: MsoLineNumbersRestartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-line-numbers-start'?: MsoLineNumbersStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-line-spacing'?: MsoLineSpacingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`linked` |
+   * `false` | &vert; |`linked` |
    */
   'mso-linked-frame'?: MsoLinkedFrameProperty;
   /**
@@ -4881,7 +4881,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4889,7 +4889,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4897,7 +4897,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4905,7 +4905,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4921,7 +4921,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4929,7 +4929,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4937,7 +4937,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -4969,15 +4969,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-mirror-margins'?: MsoMirrorMarginsProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -4985,7 +4985,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -4993,49 +4993,49 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-level'?: MsoOutlineLevelProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-parent'?: MsoOutlineParentProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`right` |
+   * `false` | &vert; |`right` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-parent-col'?: MsoOutlineParentColProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`bottom` |
+   * `false` | &vert; |`bottom` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-parent-row'?: MsoOutlineParentRowProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`expanded` |
+   * `false` | &vert; |`expanded` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-parent-visibility'?: MsoOutlineParentVisibilityProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`userset` |
+   * `false` | &vert; |`userset` |
    *
-   * @see [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-outline-style'?: MsoOutlineStyleProperty;
   /**
@@ -5047,9 +5047,9 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-aligned'?: MsoPageBorderAlignedProperty;
   /**
@@ -5057,171 +5057,171 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
    * | --------- | -- | ------------- |
    * `true` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-art'?: MsoPageBorderArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-bottom-art'?: MsoPageBorderBottomArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`all-pages` |
+   * `false` | &vert; |`all-pages` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-display'?: MsoPageBorderDisplayProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-left-art'?: MsoPageBorderLeftArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`edge` |
+   * `false` | &vert; |`edge` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-offset-from'?: MsoPageBorderOffsetFromProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-right-art'?: MsoPageBorderRightArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-surround-footer'?: MsoPageBorderSurroundFooterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-surround-header'?: MsoPageBorderSurroundHeaderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-top-art'?: MsoPageBorderTopArtProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`in-front` |
+   * `false` | &vert; |`in-front` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-border-z-order'?: MsoPageBorderZOrderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-numbers'?: MsoPageNumbersProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`hyphen` |
+   * `false` | &vert; |`hyphen` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-numbers-chapter-separator'?: MsoPageNumbersChapterSeparatorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-numbers-chapter-style'?: MsoPageNumbersChapterStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`auto` |
+   * `false` | &vert; |`auto` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-numbers-start'?: MsoPageNumbersStartProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`arabic` |
+   * `false` | &vert; |`arabic` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-numbers-style'?: MsoPageNumbersStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`portrait` |
+   * `false` | &vert; |`portrait` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-orientation'?: MsoPageOrientationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-page-scale'?: MsoPageScaleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    */
   'mso-pagination'?: MsoPaginationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-paper-source'?: MsoPaperSourceProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-paper-source-first-page'?: MsoPaperSourceFirstPageProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-paper-source-other-pages'?: MsoPaperSourceOtherPagesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -5229,7 +5229,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -5237,7 +5237,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -5245,71 +5245,71 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-area'?: MsoPrintAreaProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`yes` |
+   * `false` | &vert; |`yes` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-color'?: MsoPrintColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-gridlines'?: MsoPrintGridlinesProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-headings'?: MsoPrintHeadingsProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-resolution'?: MsoPrintResolutionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`over-then-down` |
+   * `false` | &vert; |`over-then-down` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-sheet-order'?: MsoPrintSheetOrderProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-title-column'?: MsoPrintTitleColumnProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-print-title-row'?: MsoPrintTitleRowProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5317,7 +5317,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5325,7 +5325,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5341,7 +5341,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5373,7 +5373,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5381,33 +5381,33 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-scheme-fill-color'?: MsoSchemeFillColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-scheme-shadow-color'?: MsoSchemeShadowColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
-   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm)
+   * @see [`Borders and Shading`](https://stigmortenmyre.no/mso/html/concepts/ofconbordersshading.htm), [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm), [`Colors`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm)
    */
   'mso-shading'?: MsoShadingProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-shadow-color'?: MsoShadowColorProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5415,7 +5415,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5423,7 +5423,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -5431,57 +5431,57 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
-   * @see [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-special-character'?: MsoSpecialCharacterProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-special-format'?: MsoSpecialFormatProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-id'?: MsoStyleIdProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-name'?: MsoStyleNameProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-next'?: MsoStyleNextProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-parent'?: MsoStyleParentProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-type'?: MsoStyleTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-style-update'?: MsoStyleUpdateProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Master Documents`](https://stigmortenmyre.no/mso/html/word/wdconmasterdocuments.htm)
    */
@@ -5495,7 +5495,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
    * @see [`Whitespace`](https://stigmortenmyre.no/mso/html/concepts/ofconwhitespace.htm)
    */
@@ -5511,7 +5511,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`margin` |
+   * `false` | &vert; |`margin` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -5519,7 +5519,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -5527,7 +5527,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5535,7 +5535,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5543,7 +5543,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5551,7 +5551,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`normal` |
+   * `false` | &vert; |`normal` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5559,7 +5559,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5567,7 +5567,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5575,7 +5575,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5605,7 +5605,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5613,7 +5613,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5621,7 +5621,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Change Tracking`](https://stigmortenmyre.no/mso/html/word/wdconchangetracking.htm)
    */
@@ -5637,7 +5637,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Tables`](https://stigmortenmyre.no/mso/html/word/wdcontables.htm)
    */
@@ -5669,7 +5669,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`none` |
+   * `false` | &vert; |`none` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5677,7 +5677,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5685,7 +5685,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Cell Formatting`](https://stigmortenmyre.no/mso/html/excel/xlconcellformatting.htm)
    */
@@ -5693,7 +5693,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5701,7 +5701,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`horizontal` |
+   * `false` | &vert; |`horizontal` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5709,7 +5709,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`Text`](https://stigmortenmyre.no/mso/html/concepts/ofcontext.htm)
    */
@@ -5717,15 +5717,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
-   * @see [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-title-page'?: MsoTitlePageProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5733,7 +5733,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5741,15 +5741,15 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`baseline` |
+   * `false` | &vert; |`baseline` |
    */
   'mso-vertical-align-special'?: MsoVerticalAlignSpecialProperty<TLength>;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`top` |
+   * `false` | &vert; |`top` |
    *
-   * @see [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm)
+   * @see [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm), [`Comments`](https://stigmortenmyre.no/mso/html/word/wdconcomments.htm), [`Footnotes and Endnotes`](https://stigmortenmyre.no/mso/html/word/wdconfootnotesandendnotes.htm), [`Grouping and Outlines`](https://stigmortenmyre.no/mso/html/excel/xlconoutline.htm), [`Headers and Footers`](https://stigmortenmyre.no/mso/html/concepts/ofconheadersfootersstyle.htm), [`Page Layout and Section Breaks`](https://stigmortenmyre.no/mso/html/word/wdconsectionbreaks.htm), [`Page Setup`](https://stigmortenmyre.no/mso/html/concepts/ofconpagesetup.htm)
    */
   'mso-vertical-page-align'?: MsoVerticalPageAlignProperty;
   /**
@@ -5763,13 +5763,13 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-word-wrap'?: MsoWordWrapProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`1` |
+   * `false` | &vert; |`1` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5777,7 +5777,7 @@ export interface StandardPropertiesHyphen<TLength = GlobalsString | 0> {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`no` |
+   * `false` | &vert; |`no` |
    *
    * @see [`Worksheets`](https://stigmortenmyre.no/mso/html/excel/xlcontables.htm)
    */
@@ -5893,7 +5893,7 @@ export interface FareastPropertiesHyphen {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    *
    * @see [`International Documents`](https://stigmortenmyre.no/mso/html/concepts/ofconinternational.htm)
    */
@@ -5912,61 +5912,61 @@ export interface PanosePropertiesHyphen {
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-arm-style'?: MsoPanoseArmStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-contrast'?: MsoPanoseContrastProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-family-type'?: MsoPanoseFamilyTypeProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-letterform'?: MsoPanoseLetterformProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-midline'?: MsoPanoseMidlineProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-proportion'?: MsoPanoseProportionProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-serif-style'?: MsoPanoseSerifStyleProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-stroke-variation'?: MsoPanoseStrokeVariationProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-weight'?: MsoPanoseWeightProperty;
   /**
    * | Inherited | &vert; | Initial |
    * | --------- | -- | ------------- |
-   * `unknown` | &vert; |`n/a` |
+   * `false` | &vert; |`n/a` |
    */
   'mso-panose-x-height'?: MsoPanoseXHeightProperty;
 }
@@ -5988,15 +5988,15 @@ type GlobalsNumber = number & {};
 
 export type MsInterpolationModeProperty = 'bicubic' | 'nearest-neighbor';
 
-export type MsoAnsiFontSizeProperty<TLength = GlobalsString | 0> = FontSize | TLength | GlobalsString;
+export type MsoAnsiFontSizeProperty<TLength = GlobalsString | 0> = FontSize | TLength | GlobalsString | 'inherit';
 
-export type MsoAnsiFontStyleProperty = 'italic' | 'normal' | 'oblique';
+export type MsoAnsiFontStyleProperty = 'italic' | 'normal' | 'oblique' | 'inherit';
 
-export type MsoAnsiFontWeightProperty = GlobalsNumber | 'bold' | 'bolder' | 'lighter' | 'normal';
+export type MsoAnsiFontWeightProperty = GlobalsNumber | 'bold' | 'bolder' | 'lighter' | 'normal' | 'inherit';
 
-export type MsoAnsiLanguageProperty = GlobalsString;
+export type MsoAnsiLanguageProperty = GlobalsString | 'inherit';
 
-export type MsoAsciiFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto';
+export type MsoAsciiFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto' | 'inherit';
 
 export type MsoBackgroundProperty = Color | 'auto';
 
@@ -6004,17 +6004,17 @@ export type MsoBackgroundSourceProperty = 'auto';
 
 export type MsoBaselinePositionProperty = GlobalsString;
 
-export type MsoBidiFlagProperty = 'off' | 'on';
+export type MsoBidiFlagProperty = 'off' | 'on' | 'inherit';
 
-export type MsoBidiFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto';
+export type MsoBidiFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto' | 'inherit';
 
-export type MsoBidiFontSizeProperty<TLength = GlobalsString | 0> = FontSize | TLength | GlobalsString;
+export type MsoBidiFontSizeProperty<TLength = GlobalsString | 0> = FontSize | TLength | GlobalsString | 'inherit';
 
-export type MsoBidiFontStyleProperty = 'italic' | 'normal' | 'oblique';
+export type MsoBidiFontStyleProperty = 'italic' | 'normal' | 'oblique' | 'inherit';
 
-export type MsoBidiFontWeightProperty = GlobalsNumber | 'bold' | 'bolder' | 'lighter' | 'normal';
+export type MsoBidiFontWeightProperty = GlobalsNumber | 'bold' | 'bolder' | 'lighter' | 'normal' | 'inherit';
 
-export type MsoBidiLanguageProperty = GlobalsString;
+export type MsoBidiLanguageProperty = GlobalsString | 'inherit';
 
 export type MsoBookmarkProperty = GlobalsString;
 
@@ -6084,7 +6084,7 @@ export type MsoBorderRightWidthAltProperty<TLength = GlobalsString | 0> = TLengt
 
 export type MsoBorderShadowProperty = 'no' | 'yes';
 
-export type MsoBorderSourceProperty = 'auto' | 'background' | 'foreground';
+export type MsoBorderSourceProperty = 'auto' | 'background' | 'foreground' | 'inherit';
 
 export type MsoBorderStyleAltProperty = BorderArt | BorderStyle;
 
@@ -6139,7 +6139,7 @@ export type MsoCharTypeProperty = 'hiragana' | 'katakana' | 'narrow-katakana' | 
 
 export type MsoCharWrapProperty = GlobalsNumber;
 
-export type MsoColorAltProperty = Color | 'auto';
+export type MsoColorAltProperty = Color | 'auto' | 'inherit';
 
 export type MsoColorIndexProperty = GlobalsNumber;
 
@@ -6159,7 +6159,7 @@ export type MsoCommentIdProperty = GlobalsString;
 
 export type MsoCommentReferenceProperty = GlobalsString;
 
-export type MsoDataPlacementProperty = 'new-cell' | 'same-cell';
+export type MsoDataPlacementProperty = 'new-cell' | 'same-cell' | 'inherit';
 
 export type MsoDefaultHeightProperty<TLength = GlobalsString | 0> = TLength;
 
@@ -6324,11 +6324,11 @@ export type MsoEvenHeaderSrcProperty = GlobalsString;
 
 export type MsoFacingPagesProperty = 'no' | 'yes';
 
-export type MsoFareastFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto';
+export type MsoFareastFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto' | 'inherit';
 
 export type MsoFareastHintProperty = 'no' | 'yes';
 
-export type MsoFareastLanguageProperty = GlobalsString;
+export type MsoFareastLanguageProperty = GlobalsString | 'inherit';
 
 export type MsoFieldChangeProperty = GlobalsString;
 
@@ -6358,15 +6358,15 @@ export type MsoFirstHeaderSrcProperty = GlobalsString;
 
 export type MsoFontAltProperty = GlobalsString;
 
-export type MsoFontCharsetProperty = GlobalsNumber;
+export type MsoFontCharsetProperty = GlobalsNumber | 'inherit';
 
 export type MsoFontFormatProperty = 'other' | 'truetype';
 
 export type MsoFontInfoProperty = GenericFontFamily | GlobalsNumber | GlobalsString | 'auto';
 
-export type MsoFontInfoCharsetProperty = GlobalsNumber;
+export type MsoFontInfoCharsetProperty = GlobalsNumber | 'inherit';
 
-export type MsoFontInfoTypeProperty = GenericFontFamily | GlobalsString | 'auto';
+export type MsoFontInfoTypeProperty = GenericFontFamily | GlobalsString | 'auto' | 'inherit';
 
 export type MsoFontKerningProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'none';
 
@@ -6458,9 +6458,9 @@ export type MsoFootnoteSeparatorSrcProperty = GlobalsString;
 
 export type MsoForegroundProperty = Color | 'auto';
 
-export type MsoFormsProtectionProperty = 'no' | 'yes';
+export type MsoFormsProtectionProperty = 'no' | 'yes' | 'inherit';
 
-export type MsoGenericFontFamilyProperty = 'auto' | 'decorative' | 'modern' | 'roman' | 'script' | 'swiss';
+export type MsoGenericFontFamilyProperty = 'auto' | 'decorative' | 'modern' | 'roman' | 'script' | 'swiss' | 'inherit';
 
 export type MsoGridBottomProperty<TLength = GlobalsString | 0> = TLength;
 
@@ -6491,7 +6491,8 @@ export type MsoHansiFontFamilyProperty =
   | 'fantasy'
   | 'monospace'
   | 'sans-serif'
-  | 'serif';
+  | 'serif'
+  | 'inherit';
 
 export type MsoHeaderProperty = GlobalsString | GlobalsString;
 
@@ -6505,11 +6506,11 @@ export type MsoHeaderSrcProperty = GlobalsString;
 
 export type MsoHeightAltProperty = GlobalsNumber;
 
-export type MsoHeightRuleProperty = 'at-least' | 'exactly';
+export type MsoHeightRuleProperty = 'at-least' | 'exactly' | 'inherit';
 
-export type MsoHeightSourceProperty = 'auto' | 'userset';
+export type MsoHeightSourceProperty = 'auto' | 'userset' | 'inherit';
 
-export type MsoHideProperty = 'all' | 'none' | 'screen';
+export type MsoHideProperty = 'all' | 'none' | 'screen' | 'inherit';
 
 export type MsoHighlightProperty = Color | 'auto';
 
@@ -6539,21 +6540,21 @@ export type MsoLayoutGridCharAltProperty = GlobalsNumber;
 
 export type MsoLayoutGridOriginProperty<TLength = GlobalsString | 0> = TLength;
 
-export type MsoLevelInheritProperty = 'legal' | 'normal';
+export type MsoLevelInheritProperty = 'legal' | 'normal' | 'inherit';
 
-export type MsoLevelLegacyProperty = 'no' | 'yes';
+export type MsoLevelLegacyProperty = 'no' | 'yes' | 'inherit';
 
-export type MsoLevelLegacyIndentProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoLevelLegacyIndentProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
-export type MsoLevelLegacySpaceProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoLevelLegacySpaceProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
-export type MsoLevelLegalFormatProperty = 'no' | 'yes';
+export type MsoLevelLegalFormatProperty = 'no' | 'yes' | 'inherit';
 
-export type MsoLevelNumberFormatProperty = IntNumberStyle | NumberStyle | 'none';
+export type MsoLevelNumberFormatProperty = IntNumberStyle | NumberStyle | 'none' | 'inherit';
 
-export type MsoLevelNumberPositionProperty = 'center' | 'left' | 'right';
+export type MsoLevelNumberPositionProperty = 'center' | 'left' | 'right' | 'inherit';
 
-export type MsoLevelNumberingProperty = 'continue' | 'restart';
+export type MsoLevelNumberingProperty = 'continue' | 'restart' | 'inherit';
 
 export type MsoLevelResetLevelProperty =
   | 'level1'
@@ -6565,23 +6566,29 @@ export type MsoLevelResetLevelProperty =
   | 'level7'
   | 'level8'
   | 'level9'
-  | 'none';
+  | 'none'
+  | 'inherit';
 
-export type MsoLevelStartAtProperty = GlobalsNumber;
+export type MsoLevelStartAtProperty = GlobalsNumber | 'inherit';
 
-export type MsoLevelStyleLinkProperty = GlobalsString;
+export type MsoLevelStyleLinkProperty = GlobalsString | 'inherit';
 
-export type MsoLevelSuffixProperty = 'none' | 'space' | 'tab';
+export type MsoLevelSuffixProperty = 'none' | 'space' | 'tab' | 'inherit';
 
-export type MsoLevelTabStopProperty<TLength = GlobalsString | 0> = TLength | 'none';
+export type MsoLevelTabStopProperty<TLength = GlobalsString | 0> = TLength | 'none' | 'inherit';
 
-export type MsoLevelTextProperty = GlobalsString;
+export type MsoLevelTextProperty = GlobalsString | 'inherit';
 
 export type MsoLineBreakOverrideProperty = 'none' | 'restrictions';
 
 export type MsoLineGridProperty = 'auto' | 'default';
 
-export type MsoLineHeightAltProperty<TLength = GlobalsString | 0> = TLength | GlobalsNumber | GlobalsString | 'normal';
+export type MsoLineHeightAltProperty<TLength = GlobalsString | 0> =
+  | TLength
+  | GlobalsNumber
+  | GlobalsString
+  | 'normal'
+  | 'inherit';
 
 export type MsoLineHeightRuleProperty = 'at-least' | 'exactly';
 
@@ -6608,7 +6615,8 @@ export type MsoListProperty =
   | 'level7'
   | 'level8'
   | 'level9'
-  | 'none';
+  | 'none'
+  | 'inherit';
 
 export type MsoListChangeProperty = GlobalsString;
 
@@ -6618,7 +6626,7 @@ export type MsoListChangeTimeProperty = GlobalsString;
 
 export type MsoListChangeValuesProperty = GlobalsString;
 
-export type MsoListIdProperty = GlobalsNumber;
+export type MsoListIdProperty = GlobalsNumber | 'inherit';
 
 export type MsoListInsProperty = GlobalsString;
 
@@ -6626,11 +6634,11 @@ export type MsoListInsAuthorProperty = GlobalsString;
 
 export type MsoListInsTimeProperty = GlobalsString;
 
-export type MsoListNameProperty = GlobalsString;
+export type MsoListNameProperty = GlobalsString | 'inherit';
 
-export type MsoListTemplateIdsProperty = GlobalsNumber;
+export type MsoListTemplateIdsProperty = GlobalsNumber | 'inherit';
 
-export type MsoListTypeProperty = 'hybrid' | 'multilevel' | 'simple';
+export type MsoListTypeProperty = 'hybrid' | 'multilevel' | 'simple' | 'inherit';
 
 export type MsoMarginBottomAltProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'auto';
 
@@ -6658,7 +6666,7 @@ export type MsoOutlineStyleProperty = 'auto' | 'userset';
 
 export type MsoPaddingAltProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
 
-export type MsoPaddingBetweenProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoPaddingBetweenProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
 export type MsoPaddingBottomAltProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
 
@@ -6670,7 +6678,7 @@ export type MsoPaddingTopAltProperty<TLength = GlobalsString | 0> = TLength | Gl
 
 export type MsoPageBorderAlignedProperty = 'no' | 'yes';
 
-export type MsoPageBorderArtProperty = BorderArt;
+export type MsoPageBorderArtProperty = BorderArt | 'inherit';
 
 export type MsoPageBorderBottomArtProperty = BorderArt;
 
@@ -6812,15 +6820,15 @@ export type MsoPropChangeAuthorProperty = GlobalsString;
 
 export type MsoPropChangeTimeProperty = GlobalsString;
 
-export type MsoProtectionProperty = 'hidden' | 'locked' | 'no' | 'unlocked' | 'visible' | 'yes';
+export type MsoProtectionProperty = 'hidden' | 'locked' | 'no' | 'unlocked' | 'visible' | 'yes' | 'inherit';
 
 export type MsoRotateProperty = GlobalsNumber;
 
-export type MsoRowMarginLeftProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoRowMarginLeftProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
-export type MsoRowMarginRightProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoRowMarginRightProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
-export type MsoRubyMergeProperty = 'auto' | 'none';
+export type MsoRubyMergeProperty = 'auto' | 'none' | 'inherit';
 
 export type MsoRubyVisibilityProperty = 'none' | 'normal';
 
@@ -6868,11 +6876,11 @@ export type MsoStyleUpdateProperty = 'auto' | 'none';
 
 export type MsoSubdocumentProperty = 'no' | 'yes';
 
-export type MsoSymbolFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto';
+export type MsoSymbolFontFamilyProperty = GenericFontFamily | GlobalsString | 'auto' | 'inherit';
 
 export type MsoTabCountProperty = GlobalsNumber | 'blank' | 'dashed' | 'dotted' | 'heavy' | 'lined' | 'middot';
 
-export type MsoTableAnchorHorizontalProperty = 'column' | 'margin' | 'page';
+export type MsoTableAnchorHorizontalProperty = 'column' | 'margin' | 'page' | 'inherit';
 
 export type MsoTableAnchorVerticalProperty = 'margin' | 'page' | 'paragraph';
 
@@ -6892,7 +6900,7 @@ export type MsoTableInsTimeProperty = GlobalsString;
 
 export type MsoTableInsertedProperty = GlobalsString;
 
-export type MsoTableLayoutAltProperty = 'auto' | 'fixed';
+export type MsoTableLayoutAltProperty = 'auto' | 'fixed' | 'inherit';
 
 export type MsoTableLeftProperty<TLength = GlobalsString | 0> =
   | TLength
@@ -6900,11 +6908,12 @@ export type MsoTableLeftProperty<TLength = GlobalsString | 0> =
   | 'inside'
   | 'left'
   | 'outside'
-  | 'right';
+  | 'right'
+  | 'inherit';
 
-export type MsoTableLspaceProperty<TLength = GlobalsString | 0> = TLength;
+export type MsoTableLspaceProperty<TLength = GlobalsString | 0> = TLength | 'inherit';
 
-export type MsoTableOverlapProperty = 'auto' | 'never';
+export type MsoTableOverlapProperty = 'auto' | 'never' | 'inherit';
 
 export type MsoTablePropAuthorProperty = GlobalsString;
 
@@ -6912,7 +6921,7 @@ export type MsoTablePropChangeProperty = GlobalsString;
 
 export type MsoTablePropTimeProperty = GlobalsString;
 
-export type MsoTableRspaceProperty<TLength = GlobalsString | 0> = TLength | GlobalsString;
+export type MsoTableRspaceProperty<TLength = GlobalsString | 0> = TLength | GlobalsString | 'inherit';
 
 export type MsoTableTopProperty<TLength = GlobalsString | 0> =
   | TLength
@@ -6923,9 +6932,9 @@ export type MsoTableTopProperty<TLength = GlobalsString | 0> =
   | 'outside'
   | 'top';
 
-export type MsoTableTspaceProperty<TLength = GlobalsString | 0> = TLength;
+export type MsoTableTspaceProperty<TLength = GlobalsString | 0> = TLength | 'inherit';
 
-export type MsoTableWrapProperty = 'around' | 'none';
+export type MsoTableWrapProperty = 'around' | 'none' | 'inherit';
 
 export type MsoTextAnimationProperty =
   | 'ants-black'
@@ -6934,7 +6943,8 @@ export type MsoTextAnimationProperty =
   | 'lights'
   | 'none'
   | 'shimmer'
-  | 'sparkle';
+  | 'sparkle'
+  | 'inherit';
 
 export type MsoTextCombineBracketsProperty = 'angle' | 'curly' | 'none' | 'round' | 'square';
 
@@ -6978,7 +6988,7 @@ export type MsoVerticalPageAlignProperty = 'bottom' | 'center' | 'justified' | '
 
 export type MsoWidthAltProperty = GlobalsNumber;
 
-export type MsoWidthSourceProperty = 'auto' | 'userset';
+export type MsoWidthSourceProperty = 'auto' | 'userset' | 'inherit';
 
 export type MsoWordWrapProperty = GlobalsNumber;
 

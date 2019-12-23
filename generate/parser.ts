@@ -1,10 +1,10 @@
-import { syntaxes } from '@email-types/data';
+import { syntaxes } from '@email-types/data/mso';
 import { getCssDataTypes } from './css-types';
 import { AnyDataType, DataType } from './constants';
 import { toPascalCase, log } from '../utils';
 
-const REGEX_DATA_TYPE = /^(<[^>]+>)/g;
-const REGEX_KEYWORD = /^([\w-|\w.]+)/g;
+const dataTypePattern = /^(<[^>]+>)/g;
+const keywordPattern = /^([\w-|\w.]+)/g;
 
 export const parse = (syntax: string): AnyDataType[] => {
   const rawdata = syntax
@@ -13,7 +13,7 @@ export const parse = (syntax: string): AnyDataType[] => {
     .sort();
 
   const parsed = rawdata.reduce<AnyDataType[]>((result, next) => {
-    if (next.match(REGEX_DATA_TYPE) !== null) {
+    if (next.match(dataTypePattern) !== null) {
       const value = next.slice(1, -1);
       const cssDataTypes = getCssDataTypes();
 
@@ -28,7 +28,7 @@ export const parse = (syntax: string): AnyDataType[] => {
           value: toPascalCase(value),
         });
       }
-    } else if (next.match(REGEX_KEYWORD) !== null) {
+    } else if (next.match(keywordPattern) !== null) {
       const literal = Number(next);
       if (String(literal) === next) {
         result.push({
