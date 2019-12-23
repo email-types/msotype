@@ -11,20 +11,21 @@
   "scripts": {
     "prune": "rm -rf ./{,*/,**/*/}{node_modules,coverage,*.lock,*.log,*.tsbuildinfo}",
     "build": "ts-node ./build/index.ts",
-    "test": "yarn build && yarn run lint && yarn run jest",
+    "test": "yarn build && yarn lint && yarn jest",
     "jest": "jest --colors --logHeapUsage",
-    "jest:coverage": "yarn run jest --coverage",
+    "jest:coverage": "yarn jest --coverage",
     "lint": "eslint . --max-warnings=0 --report-unused-disable-directives",
     "pretty": "prettier \"**/*.{js,ts,md,json}\" --write",
-    "changelog": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s",
-    "version:canary": "yarn version --prerelease --preid canary"
+    "changelog": "conventional-changelog -p conventional-changelog-beemo -i CHANGELOG.md -s -r 0",
+    "version:canary": "yarn version --prerelease --preid canary",
+    "postversion": "yarn changelog && git reset --soft HEAD~1 && git add . && git commit -m \"release v$npm_package_version\""
   },
   "lint-staged": {
     "**/*.{js,ts,md,json}": [
-      "yarn run pretty"
+      "yarn pretty"
     ],
     "{.github/}**/*.{js,ts}": [
-      "yarn run lint --fix"
+      "yarn lint --fix"
     ]
   },
   "husky": {
