@@ -24,6 +24,11 @@ const entries = Object.entries({
 export let getProperties = (): Property[] => {
   const properties = entries.map(([key, value]) => {
     const types = parse(value.syntax);
+
+    if (value.inherited) {
+      types.push({ type: DataType.StringLiteral, value: 'inherit' });
+    }
+
     const property: Property = {
       key,
       types,

@@ -18,7 +18,7 @@ export const createComment = (
 
   const tableRow: string[] = [];
 
-  if (property.inherited) {
+  if (typeof property.inherited === 'boolean') {
     tableRow.push(`\`${property.inherited}\` | &vert; |`);
   } else {
     tableRow.push('`unknown` | &vert; |');
@@ -36,11 +36,11 @@ export const createComment = (
     const links: string[] = [];
     property.groups.forEach((group) => {
       const name = group.toLowerCase().replace(/\s+/g, '-');
-      const data = groupLinks[name as keyof typeof groupLinks];
+      const data = groupLinks[name];
 
       if (data) {
-        data.forEach((d) => {
-          links.push(`[\`${d.title}\`](${d.url})`);
+        Object.keys(data).forEach((title) => {
+          links.push(`[\`${title}\`](${data[title]})`);
         });
         return;
       }
