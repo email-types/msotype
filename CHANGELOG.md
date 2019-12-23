@@ -1,3 +1,17 @@
+## 1.0.1-canary.0 - 2019-12-23
+
+#### 🚀 Updates
+
+- Add inherit values and update all deps to latest (#5)
+  ([7493294](https://github.com/email-types/msotype/commit/7493294)), closes
+  [#5](https://github.com/email-types/msotype/issues/5)
+
+#### 🛠 Internals
+
+- Add codecov gh-action (#4)
+  ([67922ad](https://github.com/email-types/msotype/commit/67922ad)), closes
+  [#4](https://github.com/email-types/msotype/issues/4)
+
 ## 1.0.0 - 2019-12-03
 
 ## 1.0.0-canary.4 - 2019-12-03
